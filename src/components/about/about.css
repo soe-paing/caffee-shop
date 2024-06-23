@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+}
+
+.about .contant, .about .image-slide-container {
+    width: 50%;
+}
+
+.about .contant {
+    padding: 2rem;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    h5{
+        line-height: 6rem;
+        font-size: 4rem;
+        color: #fff;
+        span {
+            font-size: 2.5rem;
+            color: var(--main-color);
+        }
+    }
+}
+
+.about .contant p {
+    margin-top: 2rem;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.image-slide-container img {
+    width: 100%;
+    aspect-ratio: 7/5;
+}
+
+@media (max-width: 991px) {
+    .about {
+        flex-direction: column;
+    }
+    .about .contant, .about .image-slide-container {
+        width: 100%;
+    }
+}

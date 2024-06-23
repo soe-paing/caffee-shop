@@ -1,0 +1,33 @@
+.btn1 {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 5rem;
+    font-size: 1.7rem;box-sizing: border-box;
+    --border-radius-value: 0px; /* Default value */
+    border-radius: var(--border-radius-value);
+    background: var(--main-color);
+    cursor: pointer;
+    border: var(--border);
+    color: #fff;
+    transform: background 100ms;
+    &:hover {
+        background: var(--black);
+    }
+}
+
+/* For Cart Checkout BTN */
+.cart-items-container .btn1 {
+    width: 100%;
+    text-align: center;
+    &:hover {
+        letter-spacing: .2rem;
+    }
+}
+
+.close-right-tap {
+    margin: 3rem .5rem;
+    font-size: 4rem;
+    &:hover {
+        color: var(--main-color);
+    }
+}

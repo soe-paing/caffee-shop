@@ -1,0 +1,126 @@
+.header {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    position: absolute;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+}
+  
+.header .logo img {
+    height: 7.5rem;
+    border-radius: 50%;
+}
+
+.header .navbar a {
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+    &:hover {
+        font-weight: bolder;
+        color: var(--main-color);
+        border-bottom: .1rem solid var(--main-color);
+        padding-bottom: 0rem;
+    }
+}
+
+.header .navbar .close-right-tap {
+    display: none;
+}
+
+.header .icons div {
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover {
+    color: var(--main-color);
+}
+
+.header .icons #menu-btn {
+    display: none;
+}
+
+.header .search-form {
+    position: absolute;
+    top: 115%; right: 7%;
+    background: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    &.active-search {
+        transform: scaleY(1);
+    }
+}
+
+.header .search-form input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 1rem;
+    text-transform: none;
+}
+
+.header .search-form label {
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: var(--black);
+    &:hover {
+        color: var(--main-color);
+    }
+}
+
+.header .cart-items-container {
+    position: absolute;
+    top: 0; right: -100%;
+    height: 100vh;
+    width: 35rem;
+    background-color: #fff !important;
+    padding: 0 1.5rem;
+    transition: .38s linear;
+    &.active-cart {
+        right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .icons #menu-btn {
+        z-index: 1000;
+        display: inline-block;
+    }
+    
+    .header .navbar {
+        display: inline-block;
+        position: absolute;
+        top: 0; right: -100%;
+        padding: 0 1.5rem;
+        background-color: #fff !important;
+        width: 30rem;
+        height: 100vh;
+        transition: .38s linear;
+    }
+
+    .header .navbar a {
+        display: block;
+        margin: 1.5rem .5rem;
+        padding: .5rem;
+        font-size: 2rem;
+        color: var(--black);
+    }
+
+    .header .navbar.active-nav {
+        right: 0;
+        .close-right-tap {
+            display: inline-block;
+        }
+    }
+}

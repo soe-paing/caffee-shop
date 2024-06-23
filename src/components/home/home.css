@@ -1,0 +1,151 @@
+.zoom-slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    min-height: 620px;
+    max-height: 1030px;
+}
+  
+.slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+  
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-size: cover;
+    background-position: center;
+	transform: scale(1, 1);
+    transition: transform 20000ms ease 0s, opacity 1000ms ease 0s !important;
+}
+  
+.slide.active {
+    opacity: 1;
+    transform: scale(1.2,1.2);
+}
+
+.quote {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 900;
+    transition: top 1500ms ease 0s, opacity 1000ms ease 0s !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    img {
+        width: 100%;
+    }
+    p {
+        color: #fff;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: 5rem;
+        text-transform: capitalize;
+        margin-bottom: 7rem;
+    }
+}
+
+.quote.active {
+    opacity: 1;
+    top: 50%;
+}
+  
+.bullets {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+  
+.bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+  
+.bullet.active {
+    background-color: var(--main-color);
+    width: 12px;height: 12px;
+}
+  
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev , button.next {
+    aspect-ratio: 1/1;
+    .fa-arrow-left, .fa-arrow-right {
+        font-size: 3rem;
+    }
+    border-radius: 50%;
+    &:hover {
+        color: var(--main-color);
+    }
+}
+  
+button.prev {
+    left: 10px;
+}
+  
+button.next {
+    right: 10px;
+}
+
+.overlay-plain.slide {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+  
+.overlay-dots.slide::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+@media (max-width: 940px) {
+    .quote {
+        padding: 5px;
+    }
+    button.prev {
+        left: 30px;
+        top: 90%;
+    }
+    button.next {
+        right: 30px;
+        top: 90%;
+    }
+    .bullet {
+        bottom: 30px;
+    }
+}
+  
