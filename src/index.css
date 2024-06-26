@@ -51,6 +51,18 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 
+h5.section-head {
+  font-size: 7rem;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 7rem 0;
+  span {
+    color: var(--main-color);
+    font-size: 1.8rem !important;
+  }
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;

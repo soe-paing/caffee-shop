@@ -1,5 +1,6 @@
 .about {
     display: flex;
+    padding: 8rem 0;
 }
 
 .about .contant, .about .image-slide-container {

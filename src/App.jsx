@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import { HERO_DATA } from './data';
 import System from './components/system/System';
 import About from './components/about/About';
+import Menu from './components/Menu/Menu';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Home src={HERO_DATA} />
       <System/>
+      <Menu/>
       <About/>
     </>
   )
