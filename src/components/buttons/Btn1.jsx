@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import './btn.css'
 
 
@@ -19,5 +20,10 @@ const Btn1 = ({children, rounded = false}) => {
         <button className="btn1" ref={buttonRef}>{children}</button>
     )
 } 
+
+Btn1.prototype = {
+    children: PropTypes.string.isRequired,
+    rounded: PropTypes.bool,
+}
 
 export default Btn1;

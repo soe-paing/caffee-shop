@@ -12,8 +12,9 @@
     padding-top: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     h5{
-        line-height: 6rem;
+        line-height: 5rem;
         font-size: 4rem;
         color: #fff;
         span {

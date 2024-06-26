@@ -8,7 +8,11 @@ const Menu = () => {
                     <span>Caffee Shop</span><br/>
                     Menu
                 </h5>
-                <div className="menu-container"></div>
+                <div className="menu-container">
+                    <div className='menu'>
+                        
+                    </div>
+                </div>
             </div>
         </section>
     )

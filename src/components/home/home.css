@@ -94,6 +94,7 @@ button.next {
     color: #fff;
     border: none;
     padding: 10px;
+    z-index: 900;
     cursor: pointer;
 }
 
