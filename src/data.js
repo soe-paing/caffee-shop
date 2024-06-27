@@ -66,4 +66,127 @@ export const ABOUT_iMGS = [
   sysImg1, sysImg2, sysImg3
 ]
 
+export const MENU_DATAS = [
+  {
+    head: 'Coffee',
+    menu: [
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+  ]
+  },
+  {
+    head: 'Cooktail',
+    menu: [
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+  ]
+  },
+  {
+    head: 'Tea',
+    menu: [
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+    {
+      img: cartImg,
+      name: 'Example',
+      price: '$12'
+    },
+  ]
+  },
+]
+
 // testing commit

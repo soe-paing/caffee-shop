@@ -1,5 +1,5 @@
 import './cards.css';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 export const Card1 = ({children, img, link='#', sub="Bar System"}) => (
     <div className='card1'>
@@ -11,9 +11,9 @@ export const Card1 = ({children, img, link='#', sub="Bar System"}) => (
     </div>
 )
 
-Card1.PropTypes = {
-    children: PropTypes.string.isRequired,
-    img: PropTypes.string,
-    link: PropTypes.string,
-    sub: PropTypes.string
+Card1.propTypes = {
+    children: propTypes.string.isRequired,
+    img: propTypes.string,
+    link: propTypes.string,
+    sub: propTypes.string
 }
