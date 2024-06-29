@@ -40,7 +40,7 @@ const SvgSlider = ({src, duriation=8000, slideSpeed=10}) => {
 
     return (
         <div className="cd-slider-wrapper">
-            <svg viewBox="0 0 1200 800">
+            <svg viewBox="0 0 1000 1000">
                 <title>Aimated SVG</title>
                 <defs>
                     <mask id='sp-0' x="0" y="0" width="100%" height="100%">

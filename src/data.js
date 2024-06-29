@@ -20,7 +20,12 @@ import teaImg1 from './assets/Tea/tra-chanh-new-110x110.png';
 import teaImg2 from './assets/Tea/tra-dao-cam-sa-new-110x110.png';
 import teaImg3 from './assets/Tea/tra-dau-new-110x110.png';
 import teaImg4 from './assets/Tea/dualuoi-png-110x110.png';
-import teaImg5 from './assets/Tea/tra-vai-new-110x110.png'
+import teaImg5 from './assets/Tea/tra-vai-new-110x110.png';
+import about1 from './assets/about1.jpg';
+import about2 from './assets/about2.jpg';
+import about3 from './assets/about3.jpg';
+import about4 from './assets/about4.jpg';
+import about5 from './assets/about5.jpg';
 
 export const NAV_DATA = ['home','about', 'menu', 'products', 'review', 'content', 'blogs'];
 
@@ -76,7 +81,7 @@ export const SYSTEM_DATA = [
 ]
 
 export const ABOUT_iMGS = [
-  sysImg1, sysImg2, sysImg3
+  about1, about2, about3, about4, about5
 ]
 
 export const MENU_DATAS = [
