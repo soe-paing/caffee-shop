@@ -19,6 +19,7 @@ const Menu = () => {
                             <li 
                                 key={index} 
                                 onClick={() => setActiveMenu(index)}
+                                className={activeMenu == index ? 'active' : null}
                             >{menu.head}</li>
                         ))}
                     </ul>
@@ -36,7 +37,7 @@ const Menu = () => {
                             ))
                         }
                     </div>
-                    <Btn1>Buy</Btn1>
+                    <Btn1 rounded={true}>Buy</Btn1>
                 </div>
             </div>
         </section>

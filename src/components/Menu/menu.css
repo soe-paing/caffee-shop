@@ -24,27 +24,29 @@ section#Menu>div.container{
             justify-content: space-evenly;
             list-style: none;
             font-size: 1.4rem;
+            max-width: 455px;
+            margin: 0 auto;
             li {
                 border-radius: .7rem;
                 padding: .7rem 1.5rem;
                 border-radius: var();
+                user-select: none;
                 cursor: pointer;
+                font-weight: 900;
+            }
+            li.active, li:hover {
                 border: 0.1rem dashed black;
-                &:hover, .active {
-                    font-weight: 900;
-                    background-color: antiquewhite;
-                }
             }
         }
         .menu {
-            padding: 5rem 15rem;
+            padding: 5rem 25rem;
             div {
                 padding: 1rem 0;
                 display: flex;
                 align-items: center;
                 img {
-                    width: 8.5rem;
-                    aspect-ratio: 1/1;
+                    width: 10rem;
+                    margin-left: -3rem;
                 }
                 div {
                     display: flex;
@@ -52,13 +54,19 @@ section#Menu>div.container{
                     flex-grow: 1 !important;
                     padding-left: 1rem;
                     p, span {
-                        font-size: 1.3rem;
+                        font-size: 1.9rem;
+                        text-transform: capitalize;
+                        margin: 0;
+                    }
+                    span {
+                        color: var(--main-color);
                     }
                     div {
                         margin: 0 2rem;
+                        padding: 0;
                         flex-grow: 1 !important;
                         height: 0px !important;
-                        border-bottom: 1px dashed black;
+                        border-bottom: 1px dashed var(--black);
                     }
                 }
             }

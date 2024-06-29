@@ -8,6 +8,19 @@ import heroSlide3 from './assets/slide_03-1.jpg';
 import heroQ1 from './assets/slogan_01.png';
 import heroQ2 from './assets/slogan_02.png';
 import heroQ3 from './assets/slogan_03.png';
+import coffeeImg1 from './assets/coffee/bacsiuda-new-110x110.png';
+import coffeeImg2 from './assets/coffee/cafenong-new-110x110.png';
+import coffeeImg3 from './assets/coffee/cafe-da-110x110.png';
+import coffeeImg4 from './assets/coffee/cafe-sua-110x110.png';
+import cooktailImg1 from './assets/cooktail/2-110x110.png';
+import cooktailImg2 from './assets/cooktail/3-110x110.png';
+import cooktailImg3 from './assets/cooktail/5-110x110.png';
+import cooktailImg4 from './assets/cooktail/6-110x110.png';
+import teaImg1 from './assets/Tea/tra-chanh-new-110x110.png';
+import teaImg2 from './assets/Tea/tra-dao-cam-sa-new-110x110.png';
+import teaImg3 from './assets/Tea/tra-dau-new-110x110.png';
+import teaImg4 from './assets/Tea/dualuoi-png-110x110.png';
+import teaImg5 from './assets/Tea/tra-vai-new-110x110.png'
 
 export const NAV_DATA = ['home','about', 'menu', 'products', 'review', 'content', 'blogs'];
 
@@ -71,119 +84,89 @@ export const MENU_DATAS = [
     head: 'Coffee',
     menu: [
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: coffeeImg3,
+      name: 'Black Ice Coffee',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: coffeeImg2,
+      name: 'Black Hot Coffee',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: coffeeImg4,
+      name: 'Milk Ice Coffee',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: coffeeImg2,
+      name: 'Milk Hot Coffee',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: coffeeImg1,
+      name: 'Silver Coin Stone',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: coffeeImg2,
+      name: 'Hot Poker',
+      price: '$12.00/-'
     },
   ]
   },
   {
     head: 'Cooktail',
     menu: [
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-  ]
+      {
+        img: cooktailImg4,
+        name: 'Blue Magarita',
+        price: '$12.00/-'
+      },
+      {
+        img: cooktailImg3,
+        name: 'Baby Love',
+        price: '$12.00/-'
+      },
+      {
+        img: cooktailImg2,
+        name: 'Mist SaiGon',
+        price: '$12.00/-'
+      },
+      {
+        img: cooktailImg1,
+        name: 'Sweet and sour (*)',
+        price: '$12.00/-'
+      },
+    ]
   },
   {
     head: 'Tea',
     menu: [
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: teaImg1,
+      name: 'lemon tea',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: teaImg2,
+      name: 'Peach Orange Lemongrass Tea',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: teaImg3,
+      name: 'Fruit tea',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: teaImg4,
+      name: 'Pink Guava Tea',
+      price: '$12.00/-'
     },
     {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
-    },
-    {
-      img: cartImg,
-      name: 'Example',
-      price: '$12'
+      img: teaImg5,
+      name: 'Jasmine Tea',
+      price: '$12.00/-'
     },
   ]
   },
