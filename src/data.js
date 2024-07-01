@@ -72,11 +72,11 @@ export const SYSTEM_DATA = [
   },
   {
     image: sysImg2,
-    content: 'Ground Floor'
+    content: 'Indoor Bar'
   },
   {
     image: sysImg3,
-    content: 'First Floor'
+    content: 'Coffee Market'
   }
 ]
 
