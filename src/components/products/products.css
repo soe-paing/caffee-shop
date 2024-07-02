@@ -1,0 +1,38 @@
+section#Products {
+    background-image: url('../../assets/black-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#Products>.container {
+    
+    .card-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+#Products>.more-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 0;
+    .line {
+        margin: 0 2rem;
+        padding: 0;
+        flex-grow: 1 !important;
+        height: 0px !important;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        .card2 {
+            margin-bottom: 40px;
+        }
+    }
+}

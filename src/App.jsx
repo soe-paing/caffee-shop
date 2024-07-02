@@ -6,6 +6,7 @@ import { HERO_DATA } from './data';
 import System from './components/system/System';
 import About from './components/about/About';
 import Menu from './components/Menu/Menu';
+import Products from './components/products/Products';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <System/>
       <Menu/>
       <About/>
+      <Products/>
     </>
   )
 }

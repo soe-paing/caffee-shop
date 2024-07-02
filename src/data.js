@@ -26,6 +26,9 @@ import about2 from './assets/about2.jpg';
 import about3 from './assets/about3.jpg';
 import about4 from './assets/about4.jpg';
 import about5 from './assets/about5.jpg';
+import product1 from './assets/products/rook3.jpg';
+import product2 from './assets/products/redbay3.jpg';
+import product3 from './assets/products/masawa3.jpg';
 
 export const NAV_DATA = ['home','about', 'menu', 'products', 'review', 'content', 'blogs'];
 
@@ -177,4 +180,23 @@ export const MENU_DATAS = [
   },
 ]
 
-// testing commit
+export const PRODUCTS = [
+  {
+    name: 'Rook Coffee',
+    price: '12.33$',
+    img: product1,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
+  },
+  {
+    name: 'Redbay Coffee',
+    price: '12.33$',
+    img: product2,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
+  },
+  {
+    name: 'Masawa Coffee',
+    price: '12.33$',
+    img: product3,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
+  }
+]
