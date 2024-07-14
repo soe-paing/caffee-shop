@@ -7,6 +7,7 @@ import System from './components/system/System';
 import About from './components/about/About';
 import Menu from './components/Menu/Menu';
 import Products from './components/products/Products';
+import Review from './components/review/Review';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Menu/>
       <About/>
       <Products/>
+      <Review/>
     </>
   )
 }

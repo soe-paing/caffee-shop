@@ -15,7 +15,7 @@ const Products = () => {
                 </h5>
                 <div className='card-container'>
                 {
-                    PRODUCTS.map((prod, index) => <Card2 name={prod.name} price={prod.price} img={prod.img} description={prod.description}/>)
+                    PRODUCTS.map((prod, index) => <Card2 key={index} name={prod.name} price={prod.price} img={prod.img} description={prod.description}/>)
                 }
                 </div>
             </div>
