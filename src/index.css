@@ -55,6 +55,7 @@ html::-webkit-scrollbar-thumb {
 h5.section-head {
   font-size: 7rem;
   color: #fff;
+  font-weight: 600;
   display: block;
   text-align: center;
   padding: 7rem 0;
