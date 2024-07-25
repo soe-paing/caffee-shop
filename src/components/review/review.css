@@ -18,7 +18,7 @@
         transform: rotate(180deg);
         bottom: -1px;left: 0;
         .elementor-shape-fill {
-            fill: var(--black);
+            fill: #a57850;
             transform-origin: center;
             transform: rotateY(0deg);
         }
