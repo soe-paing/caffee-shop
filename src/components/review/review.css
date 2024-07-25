@@ -59,6 +59,7 @@
             margin-top: -18%;
             img {
                 width: 100%;
+                aspect-ratio: 1/1;
                 border-radius: 50%;
             }
         }

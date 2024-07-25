@@ -1,5 +1,25 @@
 import './review.css';
-import profi from '../../assets/logo.png';
+import profi1 from '../../assets/review1.jpg';
+import profi2 from '../../assets/review2.jpg';
+
+const ReviewCard = ({name, img, children}) => (
+    <div>
+        <figure className='profile'>
+            <img src={img} alt="profile" />
+        </figure>
+        <div className='review-content'>
+            <h3>{name}</h3>
+            <div className="review-star">
+                {
+                    ['fas','fas','fas','fas','far'].map((cls, index) => {
+                        return <i key={index} className={cls + " fa-star"}></i>
+                    })
+                }
+            </div>
+            {children}
+        </div>
+    </div>
+)
 
 const Review = () => {
     return (
@@ -25,38 +45,12 @@ const Review = () => {
                             <span>By Customers</span>
                         </h5>
                     </div>
-                    <div>
-                        <figure className='profile'>
-                            <img src={profi} alt="profile" />
-                        </figure>
-                        <div className='review-content'>
-                            <h3>Milla Davis</h3>
-                            <div className="review-star">
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="far fa-star"></i>
-                            </div>
-                            <p>&quot;  The HappyAddon is an awesome plugin for WordPress. It have everything you need to create your stunning website. And the support is too quick&quot;</p>
-                        </div>
-                    </div>
-                    <div>
-                        <figure className='profile'>
-                            <img src={profi} alt="profile" />
-                        </figure>
-                        <div className='review-content'>
-                            <h3>Milla Davis</h3>
-                            <div className="review-star">
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="far fa-star"></i>
-                            </div>
-                            <p>&quot;The HappyAddon is an awesome plugin for WordPress. It have everything you need to create your stunning website. And the support is too quick&quot;</p>
-                        </div>
-                    </div>
+                    <ReviewCard img={profi1} name="Milla Davis">
+                        <p>&quot;  The HappyAddon is an awesome plugin for WordPress. It have everything you need to create your stunning website. And the support is too quick&quot;</p>
+                    </ReviewCard>
+                    <ReviewCard img={profi2} name="Simpson Gardiola">
+                        <p>&quot; Here I focus on a range of items and features that we use in elementor for our client web project without giving them a second thought &quot;</p>
+                    </ReviewCard>
                 </div>
             </div>
         </section>
