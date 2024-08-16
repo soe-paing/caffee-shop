@@ -30,7 +30,7 @@ import product1 from './assets/products/rook3.jpg';
 import product2 from './assets/products/redbay3.jpg';
 import product3 from './assets/products/masawa3.jpg';
 
-export const NAV_DATA = ['home','about', 'menu', 'products', 'review', 'content', 'blogs'];
+export const NAV_DATA = ['home','about', 'menu', 'products', 'review', 'contact'];
 
 export const CART_ITEMS = [
     {

@@ -4,7 +4,7 @@ import Btn1 from '../buttons/Btn1';
 import propTypes from 'prop-types';
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
-export const Card1 = ({children, img, link='#', sub="Caffee Shop", width="33.333"}) => (
+export const Card1 = ({children, img, link='#', sub="Bar System", width="33.333"}) => (
     <div className='card1' style={{width: `${width}%`}}>
         <a href={link}>
             <img src={img} alt="system" />
@@ -46,14 +46,16 @@ export const SeeMoreText = ({ text, limit }) => {
 
 export const Card2 = ({img, name, price, description, width="31.666"}) => (
     <div className='card2' style={{width: `${width}%`}}>
-        <div className='img'>
-            <img src={img} alt="img" />
+        <div>
+            <div className='img'>
+                <img src={img} alt="img" />
+            </div>
+            <span className='price'>{price}</span>
+            <div className='content'>
+                <h2>{name}</h2>
+                <Btn1 size='small' rounded={true}>Add To Cart</Btn1>
+            </div>
+            <SeeMoreText text={description} limit={78} />
         </div>
-        <span className='price'>{price}</span>
-        <div className='content'>
-            <h2>{name}</h2>
-            <Btn1 size='small' rounded={true}>Add To Cart</Btn1>
-        </div>
-        <SeeMoreText text={description} limit={78} />
     </div>
 )

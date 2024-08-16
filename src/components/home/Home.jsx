@@ -69,7 +69,7 @@ const Home = ({ src, speed = 8000, switchSpeed = 800, interval = 8000, autoplay 
         <div key={index} className={`quote ${index === currentSlide ? active : ''}`}>
           <img src={data.image} alt="quoteImg" />
           <p>{data.quote}</p>
-          <Btn1 rounded={true}>Taste Coffee</Btn1>
+          <Btn1 rounded={true} size='large'>Taste Coffee</Btn1>
         </div>
       ) )}
       {bullets && (

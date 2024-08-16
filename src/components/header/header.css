@@ -18,8 +18,8 @@
     margin: 0 1rem;
     font-size: 1.6rem;
     color: #fff;
+    font-weight: bolder;
     &:hover {
-        font-weight: bolder;
         color: var(--main-color);
         border-bottom: .1rem solid var(--main-color);
         padding-bottom: 0rem;

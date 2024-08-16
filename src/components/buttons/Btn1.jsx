@@ -21,9 +21,9 @@ const Btn1 = ({children, rounded = false, size = 'medium'}) => {
             className="btn1"
             ref={buttonRef}
             style={{padding: `${
-                size == 'small' ? '1rem 1.5rem' :
-                size == 'large' ? '2.5rem 5rem' :
-                size == 'medium' ? '2rem 5rem' :
+                size == 'small' ? '0.5rem 1.2rem' :
+                size == 'large' ? '2rem 5rem' :
+                size == 'medium' ? '1rem 3.5rem' :
                 console.log("Btn1's size attribute values are 'small', 'medium'(default), 'large'.")
             }`}}
         >{children}</button>

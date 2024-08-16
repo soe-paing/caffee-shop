@@ -28,7 +28,11 @@ const Review = () => {
             <div className='container'>
                 <div className="review-header">
                     <h5 className="section-head">
+<<<<<<< HEAD
                         <span>Coffee</span>
+=======
+                        <span>Brewed Awakening</span>
+>>>>>>> 6a222ee (modified: some style and data)
                     </h5>
                 </div>
                 <div className="review-body row">

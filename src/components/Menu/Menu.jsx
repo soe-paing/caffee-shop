@@ -10,7 +10,7 @@ const Menu = () => {
         <section id="Menu">
             <div className="container">
                 <h5 className="section-head">
-                    <span>Caffee</span><br/>
+                    <span>Brewed Awakening</span><br/>
                     Menu
                 </h5>
                 <div className="menu-container">

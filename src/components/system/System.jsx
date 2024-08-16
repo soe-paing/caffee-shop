@@ -7,9 +7,9 @@ const System = () => {
 
     return (
         <section className='system container'>
-                {
-                    SYSTEM_DATA.map((i,index) => <Card1 key={index} img={i.image}>{i.content}</Card1>)
-                }
+            {
+                SYSTEM_DATA.map((i,index) => <Card1 key={index} img={i.image}>{i.content}</Card1>)
+            }
         </section>
     )
 }
