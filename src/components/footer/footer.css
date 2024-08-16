@@ -1,0 +1,29 @@
+section.footer {
+    position: relative;
+    svg {
+        height: 110%;
+        position: absolute;
+        margin-top: -130%;
+    }
+}
+.effet{
+    width: 100%;
+    overflow: hidden;
+}
+.effet .footer-bg{
+    width: 100%;
+    aspect-ratio: 5/1.5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.filtre--l{
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+    -webkit-mask: -webkit-linear-gradient(black, transparent 30%, black);
+    -webkit-mask: linear-gradient(black, transparent 30%, black);
+    -webkit-filter: blur(3px);
+    mask: url('#mask-linear');
+    filter: url('#filtre');
+}

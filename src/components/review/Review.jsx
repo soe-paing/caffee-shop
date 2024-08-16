@@ -28,7 +28,7 @@ const Review = () => {
             <div className='container'>
                 <div className="review-header">
                     <h5 className="section-head">
-                        <span>Caffee</span>
+                        <span>Coffee</span>
                     </h5>
                 </div>
                 <div className="review-body row">
