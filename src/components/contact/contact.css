@@ -1,7 +1,7 @@
 #contact {
     width: 100%;
     /* background-size: contain; */
-    background-color: var(--main-color);
+    background-color: var(--second-bg);
     /* margin-top: 46px; */
     .contact-container {
         padding: 12rem 0;
