@@ -6,10 +6,11 @@
 
 :root {
   --main-color: #a57750;
-  --black: #13131a;
+  /* --black: #13131a; */
+  --black: #311509;
   --bg: #010103;
   --second-bg: #333333;
-  --border: .1rem solid rgba(225, 225, 225, .3);
+  --border: .1rem solid rgba(225, 225, 225, .8);
 }
 
 * {

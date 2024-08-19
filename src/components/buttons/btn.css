@@ -10,7 +10,7 @@
     color: #fff;
     transform: background 100ms;
     &:hover {
-        background: var(--black);
+        background: transparent;
     }
 }
 
@@ -20,6 +20,8 @@
     text-align: center;
     &:hover {
         letter-spacing: .2rem;
+        color: var(--main-color);
+        border-color: var(--main-color);
     }
 }
 

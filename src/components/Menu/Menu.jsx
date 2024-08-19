@@ -37,7 +37,7 @@ const Menu = () => {
                             ))
                         }
                     </div>
-                    <Btn1 rounded={true}>Buy</Btn1>
+                    <Btn1 rounded={true} size="large">Buy</Btn1>
                 </div>
             </div>
         </section>
