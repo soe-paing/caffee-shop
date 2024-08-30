@@ -4,7 +4,7 @@ import Btn1 from '../buttons/Btn1';
 import propTypes from 'prop-types';
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
-export const Card1 = ({children, img, link='#', sub="Bar System", width="33.333"}) => (
+export const Card1 = ({children, img, link='#', sub="Bar System", width="49"}) => (
     <div className='card1' style={{width: `${width}%`}}>
         <a href={link}>
             <img src={img} alt="system" />

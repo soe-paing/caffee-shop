@@ -7,7 +7,7 @@ const Footer = () => {
     return <section className='footer'>
         <div className="footer-bg" style={{backgroundImage: `url(${footBG})`}}>
             <div className='footer-content container'>
-                <h1>Subscribe to our newsletter for the<br/>
+                <h1 className='heading'>Subscribe to our newsletter for the<br/>
                 latest update and offers.
                 </h1>
                 <form className='subscribe-input' action="#">

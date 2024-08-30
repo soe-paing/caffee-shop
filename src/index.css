@@ -25,7 +25,9 @@
 }
 
 body {
-  background: var(--bg);
+  background: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 .divider {
@@ -38,6 +40,8 @@ html {
   overflow-x: hidden;
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 html::-webkit-scrollbar {
@@ -51,6 +55,16 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background: #fff;
   border-radius: 5rem;
+}
+
+
+h1.heading {
+  color: var(--main-color);
+  font-size: 45px;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
 h5.section-head {

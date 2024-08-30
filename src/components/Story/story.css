@@ -1,0 +1,16 @@
+.story.container {
+    margin: 12rem auto;
+}
+.story-paragraph {
+    padding: 0 1.3rem;
+    margin-bottom: 5rem;
+    p {
+        font-size: 19px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}

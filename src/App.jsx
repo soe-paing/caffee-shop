@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/header/Header'
 import Home from './components/home/Home';
 import { HERO_DATA } from './data';
-import System from './components/system/System';
+import Story from './components/Story/Story';
 import About from './components/about/About';
 import Menu from './components/Menu/Menu';
 import Products from './components/products/Products';
@@ -16,7 +16,7 @@ function App() {
     <>
       <Header/>
       <Home src={HERO_DATA} />
-      <System/>
+      <Story/>
       <Menu/>
       <About/>
       <Products/>
