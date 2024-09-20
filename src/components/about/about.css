@@ -1,4 +1,8 @@
 .about {
+    background-color: var(--black);
+}
+
+.about>.container {
     display: flex;
     padding: 8rem 0;
 }

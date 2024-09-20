@@ -1,11 +1,8 @@
 section#Products {
-    /* background-image: url('../../assets/black-bg.png'); */
-    background-image: url('../../assets/contactBg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-color: var(--black);
 }
 
 #Products>.container {

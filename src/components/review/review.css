@@ -1,6 +1,7 @@
 #review {
     background-color: transparent;
     position: relative;
+    background-color: var(--black);
     .review-background-overlay {
         background-image: url('../../assets/card-shape-bg3.svg');
         background-position: top left;
@@ -8,7 +9,7 @@
         opacity: 0.1;
         height: 100%;
         position: absolute;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         left: 0;right: 0;
         transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     }

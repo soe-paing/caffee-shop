@@ -5,11 +5,11 @@
 } */
 
 :root {
-  --main-color: #a57750;
+  --main-color: #DC8100;
   /* --black: #13131a; */
   --black: #311509;
   --bg: #010103;
-  --second-bg: #333333;
+  --second-bg: #452C21;
   --border: .1rem solid rgba(225, 225, 225, .8);
 }
 

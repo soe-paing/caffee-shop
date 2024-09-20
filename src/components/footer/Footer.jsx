@@ -5,7 +5,8 @@ import clock from '../../assets/alarm-clock-2629.svg';
 
 const Footer = () => {
     return <section className='footer'>
-        <div className="footer-bg" style={{backgroundImage: `url(${footBG})`}}>
+        <div className="footer-bg">
+        {/* <div className="footer-bg" style={{backgroundImage: `url(${footBG})`}}> */}
             <div className='footer-content container'>
                 <h1 className='heading'>Subscribe to our newsletter for the<br/>
                 latest update and offers.
