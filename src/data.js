@@ -66,7 +66,7 @@ export const HERO_DATA = [
 ]
 
 export const ABOUT_iMGS = [
-  about1, about2, about3, about4, about5
+  product1, product2, product3
 ]
 
 export const MENU_DATAS = [

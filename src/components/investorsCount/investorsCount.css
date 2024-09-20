@@ -1,0 +1,25 @@
+.investorsCount {
+    padding: 6rem 0;
+}
+
+.container.counter {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.counter>div {
+    text-align: center;
+    color: var(--text-coffee);
+}
+
+.counter>div>h2  {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.counter>div>span {
+    font-size: 20px;
+    opacity: 0.7;
+    text-transform: capitalize;
+}

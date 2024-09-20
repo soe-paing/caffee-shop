@@ -6,9 +6,9 @@ import { HERO_DATA } from './data';
 import Story from './components/Story/Story';
 import About from './components/about/About';
 import Menu from './components/Menu/Menu';
-import Products from './components/products/Products';
 import Review from './components/review/Review';
 import Footer from './components/footer/Footer';
+import InvestorsCount from './components/investorsCount/InvestorsCount';
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
       <Story/>
       <Menu/>
       <About/>
-      <Products/>
+      <InvestorsCount />
       <Review/>
       <Footer/>
     </>
