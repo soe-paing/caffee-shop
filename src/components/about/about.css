@@ -4,11 +4,19 @@
 
 .about>.container {
     display: flex;
-    padding: 8rem 0;
+    padding: 12rem 0;
 }
 
-.about .contant, .about .image-slide-container {
-    width: 50%;
+.about .contant {
+    width: 60%;
+} 
+
+.about .image-slide-container {
+    width: 40%;
+    height: 60%;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 
 .about .contant {
@@ -37,7 +45,7 @@
 
 .image-slide-container img {
     width: 100%;
-    aspect-ratio: 7/5;
+    /* aspect-ratio: 7/5; */
 }
 
 @media (max-width: 991px) {
