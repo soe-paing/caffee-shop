@@ -3,55 +3,30 @@
     padding: 1.5rem;
     position: relative;
     display: inline-block;
-    &:hover img {
-        transform: scale(1.06);
-    }
 }
 
-.card1 a {
+.card1 div {
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-position: center;
+    background-size: cover;
     border-radius: 20px;
 }
 
-.card1 a img {
-    width: 100%;
-    height: 100%;
-    top: 0;right: 0;
-    position: relative;
-    transition: all 0.2s ease;
-    border-radius: 20px;
-}
-
-.card1 a span {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    font-size: 1.7rem;
-    font-weight: bold;
-    color: var(--main-color);
-    transform: translate(-50%, -50%);
-}
-
-.card1 a h4 {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    font-size: 2.5rem;
+.card1 div span {
+    font-size: 3rem;
     font-weight: bold;
     color: #fff;
-    text-shadow: 1px 1px var(--black);
-    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1200px) {
     .card1 {
-        h4 {
-            font-size: 1.8rem !important;
-        }
         span {
             font-size: .8rem !important;
         }

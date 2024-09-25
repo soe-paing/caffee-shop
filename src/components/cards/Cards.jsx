@@ -6,11 +6,12 @@ import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
 export const Card1 = ({children, img, link='#', sub="Bar System", width="49"}) => (
     <div className='card1' style={{width: `${width}%`}}>
-        <a href={link}>
-            <img src={img} alt="system" />
-            <span>{sub}</span>
-            <h4>{children}</h4>
-        </a>
+        <div style={{backgroundImage: `url(${img})`}}>
+            <div>
+                <span>{sub}</span>
+                <Btn1 rounded={true}>{children}</Btn1>
+            </div>
+        </div>
     </div>
 )
 
