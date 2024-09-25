@@ -4,13 +4,14 @@
     font-size: 1.7rem;box-sizing: border-box;
     --border-radius-value: 0px; /* Default value */
     border-radius: var(--border-radius-value);
-    background: var(--main-color);
+    background: var(--black);
     cursor: pointer;
     border: var(--border);
     color: #fff;
     transform: background 100ms;
     &:hover {
         background: transparent;
+        border-color: var(--main-color);
     }
 }
 
