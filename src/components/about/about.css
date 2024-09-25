@@ -20,32 +20,36 @@
 }
 
 .about .contant {
-    padding: 2rem;
-    padding-top: 0;
+    margin-right: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    h5{
-        line-height: 5rem;
-        font-size: 4rem;
-        color: #fff;
-        span {
-            font-size: 2.5rem;
-            color: var(--main-color);
-        }
+    justify-content: space-between;
+    align-items: start;
+    .heading {
+        text-align: start;
+        margin: 0;
     }
 }
 
 .about .contant p {
-    margin-top: 2rem;
-    font-size: 18px;
-    color: #fff;
+    max-width: 550px;
+    font-size: 20px;
+    color: var(--main-color);
     text-transform: capitalize;
+}
+
+.about .contant .underline-btn {
+    border-bottom: var(--border);
+    border-color: var(--main-color);
+    cursor: pointer;
+    &&:hover {
+        color: #fff;
+        border-color: #fff;
+    }
 }
 
 .image-slide-container img {
     width: 100%;
-    /* aspect-ratio: 7/5; */
 }
 
 @media (max-width: 991px) {
