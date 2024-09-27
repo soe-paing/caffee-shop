@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@100;300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@100;300;400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 
 /* :root {
   
@@ -10,19 +13,24 @@
   --black: #311509;
   --text-coffee: #6C3C25;
   --bg: #010103;
-  --second-bg: #452C21;
+  --second-bg: #FFF6F1;
   --border: .1rem solid rgba(225, 225, 225, .8);
 }
 
 * {
-  font-family: "Nunito", "Roboto", sans-serif;
+  font-family: "EB Garamond", "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none !important;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+}
+
+.header .logo h1, h1.heading {
+  font-family:  "Poppins", sans-serif !important;
+  font-weight: 700;
 }
 
 body {
@@ -62,7 +70,6 @@ html::-webkit-scrollbar-thumb {
 h1.heading {
   color: var(--main-color);
   font-size: 45px;
-  font-weight: 900;
   width: 100%;
   text-align: center;
   margin-bottom: 5rem;
