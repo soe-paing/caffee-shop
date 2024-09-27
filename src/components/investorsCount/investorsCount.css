@@ -1,5 +1,6 @@
 .investorsCount {
     padding: 6rem 0;
+    background: var(--second-bg);
 }
 
 .container.counter {
@@ -14,8 +15,9 @@
 }
 
 .counter>div>h2  {
-    font-size: 45px;
-    font-weight: 900;
+    font-family:  "Poppins", sans-serif !important;
+    font-size: 38px;
+    font-weight: 700;
 }
 
 .counter>div>span {

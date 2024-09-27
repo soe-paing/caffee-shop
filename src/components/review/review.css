@@ -1,7 +1,7 @@
 #review {
     background-color: transparent;
     position: relative;
-    background-color: var(--black);
+    /* background-color: var(--second-bg); */
     .review-background-overlay {
         background-image: url('../../assets/card-shape-bg3.svg');
         background-position: top left;
@@ -45,7 +45,8 @@
         }
     }
     .review-body>div:nth-child(2), .review-body>div:nth-child(3) {
-        background-color: var(--second-bg);
+        background-color: #31150954;
+        backdrop-filter: blur(64px);
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -56,7 +57,8 @@
             border-radius: 50%;
             padding: 1rem;
             overflow: hidden;
-            background-color: var(--second-bg);
+            background-color: #31150954;
+            backdrop-filter: blur(64px);
             margin-top: -18%;
             img {
                 width: 100%;
