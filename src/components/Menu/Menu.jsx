@@ -10,8 +10,8 @@ const Menu = () => {
         <section id="Menu">
             <div className="container">
                 <h5 className="section-head">
-                    <span>Brewed Awakening</span><br/>
-                    Menu
+                    <span>JAVATIMECAFEE</span><br/>
+                    <h1 className='heading'>Table Menu</h1>
                 </h5>
                 <div className="menu-container">
                     <ul className="menu-header">
