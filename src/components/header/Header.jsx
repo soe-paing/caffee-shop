@@ -1,24 +1,33 @@
 import './header.css'
-import Logo from '../../assets/logo.png';
 import CartItem from '../cartItem/CartItem';
 import { CART_ITEMS, NAV_DATA} from '../../data';
 import Btn1, { CloseRight } from '../buttons/Btn1';
-import { useState } from 'react'; 
+import { useEffect, useRef, useState } from 'react'; 
 
 const Header = () => {
     const [ isActive, setIsActive] = useState(false);
+    const headerRef = useRef(null);
+
+    useEffect(() => {
+        const header = headerRef.current;
+        if (header) {
+        const height = header.offsetHeight;
+        header.style.setProperty('--header-border-radius-value', `calc(0.5 * ${height}px)`);
+        }
+    }, []);
     
     return (
         <header
+            ref={headerRef}
             className="header"
             onScroll={() => setIsActive(false)}>
-            <a href="#" className="logo">
-                <img src={Logo} alt="logo"/>
-            </a>
             <nav className={`${isActive} navbar`}>
                 <CloseRight setFalse={() => setIsActive(false)}/>
                 { NAV_DATA.map( (nav, index) => <a key={index} href={nav}>{nav}</a>) }
             </nav>
+            <a href="#" className="logo">
+                <h1>JavaTimesCaffee</h1>
+            </a>
             <div className='icons'>
                 <div 
                     className="fas fa-search" 

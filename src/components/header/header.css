@@ -1,17 +1,32 @@
 .header {
-    background: transparent;
     display: flex;
     align-items: center;
+    --header-border-radius-value: 0px; /* Default value */
+    border-radius: var(--header-border-radius-value);
     justify-content: space-between;
-    padding: 1.5rem 7%;
+    padding: 2.3rem 3%;
+    background-color: #31150954;
+    backdrop-filter: blur(64px);
     position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px 0px;
+    margin: 30px 40px;
+    border-radius: var(--);
     top: 0;left: 0;right: 0;
     z-index: 1000;
 }
   
-.header .logo img {
-    height: 7.5rem;
-    border-radius: 50%;
+.header .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.header .logo h1 {
+    font-size: 39px;
+    color: #fff;
+    margin: 0;
 }
 
 .header .navbar a {
@@ -19,9 +34,11 @@
     font-size: 1.6rem;
     color: #fff;
     font-weight: bolder;
+    text-transform: uppercase;
+    border-bottom: 0.1rem solid transparent;
     &:hover {
         color: var(--main-color);
-        border-bottom: .1rem solid var(--main-color);
+        border-bottom: 0.1rem solid var(--main-color);
         padding-bottom: 0rem;
     }
 }
