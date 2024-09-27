@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MENU_DATAS } from '../../data';
-import Btn1 from '../buttons/Btn1';
 import './menu.css'
+import Btn1 from '../../components/buttons/Btn1';
 const Menu = () => {
 
     const [activeMenu, setActiveMenu] = useState(0);

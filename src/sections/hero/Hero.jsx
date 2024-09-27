@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import './home.css'; // Add your styles here
-import Btn1 from '../buttons/Btn1';
+import './hero.css'; // Add your styles here
+import Btn1 from '../../components/buttons/Btn1';
 
 
-const Home = ({ src, speed = 8000, switchSpeed = 800, interval = 8000, autoplay = true, bullets = true, overlay = 'plain' }) => {
+const Hero = ({ src, speed = 8000, switchSpeed = 800, interval = 8000, autoplay = true, bullets = true, overlay = 'plain' }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [active, setActive] = useState('');
   const [playing, setPlaying] = useState(autoplay);
@@ -89,7 +89,7 @@ const Home = ({ src, speed = 8000, switchSpeed = 800, interval = 8000, autoplay 
   );
 };
 
-Home.propTypes = {
+Hero.propTypes = {
   src: PropTypes.arrayOf(PropTypes.object).isRequired,
   speed: PropTypes.number,
   switchSpeed: PropTypes.number,
@@ -99,4 +99,4 @@ Home.propTypes = {
   overlay: PropTypes.oneOf(['false', 'plain', 'dots']),
 };
 
-export default Home;
+export default Hero;

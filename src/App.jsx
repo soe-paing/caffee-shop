@@ -1,13 +1,13 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/header/Header'
-import Home from './components/home/Home';
+import Hero from './sections/hero/Hero';
 import { HERO_DATA } from './data';
-import Story from './components/Story/Story';
-import About from './components/about/About';
-import Menu from './components/Menu/Menu';
-import Review from './components/review/Review';
-import Footer from './components/footer/Footer';
+import Story from './sections/Story/Story';
+import About from './sections/about/About';
+import Menu from './sections/Menu/Menu';
+import Review from './sections/review/Review';
+import Footer from './sections/footer/Footer';
 import InvestorsCount from './components/investorsCount/InvestorsCount';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Home src={HERO_DATA} />
+      <Hero src={HERO_DATA} />
       <Story/>
       <Menu/>
       <About/>

@@ -1,4 +1,4 @@
-import { Card1 } from '../cards/Cards';
+import { Card1 } from '../../components/cards/Cards';
 import './story.css';
 import storyImg from '../../assets/story1.png';
 import storyImg1 from '../../assets/story2.png';

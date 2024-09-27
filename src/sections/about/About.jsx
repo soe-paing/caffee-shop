@@ -1,6 +1,6 @@
 import './about.css';
-import SvgSlider from '../svgSlider/SvgSlider';
 import { ABOUT_iMGS } from '../../data';
+import SvgSlider from '../../components/svgSlider/SvgSlider';
 
 const About = () => {
 
