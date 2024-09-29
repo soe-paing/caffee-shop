@@ -8,7 +8,7 @@ import About from './sections/about/About';
 import Menu from './sections/Menu/Menu';
 import Review from './sections/review/Review';
 import Footer from './sections/footer/Footer';
-import InvestorsCount from './components/investorsCount/InvestorsCount';
+import InvestmentSection from './sections/investment/InvestmentSection';
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
       <Story/>
       <Menu/>
       <About/>
-      <InvestorsCount />
+      <InvestmentSection />
       <Review/>
       <Footer/>
     </>

@@ -8,7 +8,7 @@ const Story = () => {
 
     return (
         <section className='story container'>
-            <h1 className='heading'>Unveiling the Story of<br/>Java Time Coffee</h1>
+            <h1 className='heading-black'>Unveiling the Story of<br/>Java Time Coffee</h1>
             <div className='story-paragraph'>
                 <p>Welcom to Java Time Caffee, your ultimate destination for premium coffee, tea, chocolate, and bakery delights worldwide. We're dedicated to delivering top-notch products and a seamless online shopping experience. Plus, we're expanding with 300 new coffee shops by 2029 to bring our passion to more communities. Join us to explore and savor the best tea, coffee, chocolate, and bakery treats!</p>
             </div>

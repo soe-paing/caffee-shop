@@ -1,3 +1,4 @@
+import MenuBook from '../../components/menuBook/MenuBook';
 import PaperMenu from '../../components/paperMenu/PaperMenu';
 import './menu.css';
 const Menu = () => {
@@ -10,6 +11,7 @@ const Menu = () => {
                     <h1 className='heading'>Table Menu</h1>
                 </h5>
                 {/* <PaperMenu /> */}
+                {/* <MenuBook /> */}
             </div>
         </section>
     )
