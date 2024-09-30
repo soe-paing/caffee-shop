@@ -13,6 +13,9 @@
         left: 0;right: 0;
         transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     }
+    .container {
+        margin-top: 12rem;
+    }
     .review-shadow {
         position: absolute;
         width: 100%;
@@ -27,7 +30,7 @@
     .review-body {
         display: flex;
         justify-content: space-between;
-        padding: 10rem 0 20rem 0;
+        padding: 10rem 0 12rem 0;
     }
     .review-body>div {
         width: 32%;

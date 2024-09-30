@@ -26,11 +26,10 @@ const Review = () => {
         <section id="review">
             <div className='review-background-overlay'></div>
             <div className='container'>
-                <div className="review-header">
-                    <h5 className="section-head">
-                        <span>Brewed Awakening</span>
-                    </h5>
-                </div>
+                <h1 className='heading-black'>
+                    Stories and Testimonials<br/>
+                    From Our Clients
+                </h1>
                 <div className="review-body row">
                     <div>
                         <h5>
