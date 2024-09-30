@@ -1,6 +1,6 @@
 import './investmentSection.css';
 import InvestorsCount from "../../components/investorsCount/InvestorsCount";
-import invesCoffee from '../../assets/logo.png'
+import invesCoffee from '../../assets/coffeebeans.jpeg'
 
 const InvestmentSection = () => {
     return (
