@@ -1,6 +1,12 @@
 import './review.css';
+
 import profi1 from '../../assets/review1.jpg';
 import profi2 from '../../assets/review2.jpg';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 const ReviewCard = ({name, img, children}) => (
     <div className='review-card'>
@@ -36,17 +42,44 @@ const Review = () => {
                     Stories and Testimonials<br/>
                     From Our Clients
                 </h1>
-                <div className="review-body">
-                    <ReviewCard img={profi1} name="Milla Davis">
-                        <p>&quot; Java Time Cafe has a best coffee and a cozy atomosphere. I invested in their new opportunities-excited for the feature!&quot;</p>
-                    </ReviewCard>
-                    <ReviewCard img={profi1} name="Milla Davis">
-                        <p>&quot;  The HappyAddon is an awesome plugin for WordPress. It have everything you need to create your stunning website. And the support is too quick&quot;</p>
-                    </ReviewCard>
-                    <ReviewCard img={profi2} name="Simpson Gardiola">
-                        <p>&quot; Here I focus on a range of items and features that we use in elementor for our client web project without giving them a second thought &quot;</p>
-                    </ReviewCard>
-                </div>
+                <Swiper
+                    slidesPerView={3}
+                    spaceBetween={30}
+                    pagination={{ clickable: true }}
+                    modules={[Pagination]}
+                    className="mySwiper review-body"
+                >
+                    <SwiperSlide>
+                        <ReviewCard img={profi1} name="Milla Davis">
+                            <p>&quot; Java Time Cafe has a best coffee and a cozy atomosphere. I invested in their new opportunities-excited for the feature!&quot;</p>
+                        </ReviewCard>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard img={profi1} name="Milla Davis">
+                            <p>&quot;  The HappyAddon is an awesome plugin for WordPress. It have everything you need to create your stunning website. And the support is too quick&quot;</p>
+                        </ReviewCard>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard img={profi2} name="Simpson Gardiola">
+                            <p>&quot; Here I focus on a range of items and features that we use in elementor for our client web project without giving them a second thought &quot;</p>
+                        </ReviewCard>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard img={profi2} name="Simpson Gardiola">
+                            <p>&quot; Here I focus on a range of items and features that we use in elementor for our client web project without giving them a second thought &quot;</p>
+                        </ReviewCard>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard img={profi2} name="Simpson Gardiola">
+                            <p>&quot; Here I focus on a range of items and features that we use in elementor for our client web project without giving them a second thought &quot;</p>
+                        </ReviewCard>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard img={profi2} name="Simpson Gardiola">
+                            <p>&quot; Here I focus on a range of items and features that we use in elementor for our client web project without giving them a second thought &quot;</p>
+                        </ReviewCard>
+                    </SwiperSlide>
+                </Swiper>
             </div>
         </section>
     )
