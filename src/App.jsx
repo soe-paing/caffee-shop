@@ -9,6 +9,7 @@ import Menu from './sections/Menu/Menu';
 import Review from './sections/review/Review';
 import Footer from './sections/footer/Footer';
 import InvestmentSection from './sections/investment/InvestmentSection';
+import MenuBook from './components/menuBook/MenuBook';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
       <Header/>
       <Hero src={HERO_DATA} />
       <Story/>
-      <Menu/>
+      {/* <Menu/> */}
+      <MenuBook/>
       <About/>
       <InvestmentSection />
       <Review/>
