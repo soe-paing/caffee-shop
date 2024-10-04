@@ -5,11 +5,11 @@ import Hero from './sections/hero/Hero';
 import { HERO_DATA } from './data';
 import Story from './sections/Story/Story';
 import About from './sections/about/About';
-import Menu from './sections/Menu/Menu';
 import Review from './sections/review/Review';
 import Footer from './sections/footer/Footer';
 import InvestmentSection from './sections/investment/InvestmentSection';
-import MenuBook from './components/menuBook/MenuBook';
+import MenuBook from './sections/menuBook/MenuBook';
+import Products from './sections/products/Products';
 
 function App() {
 
@@ -18,8 +18,8 @@ function App() {
       <Header/>
       <Hero src={HERO_DATA} />
       <Story/>
-      {/* <Menu/> */}
       <MenuBook/>
+      <Products/>
       <About/>
       <InvestmentSection />
       <Review/>
