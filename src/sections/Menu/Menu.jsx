@@ -11,8 +11,8 @@ const Menu = () => {
                     <h1 className='heading'>Table Menu</h1>
                 </h5>
                 {/* <PaperMenu /> */}
-                {/* <MenuBook /> */}
             </div>
+            <MenuBook />
         </section>
     )
 }
