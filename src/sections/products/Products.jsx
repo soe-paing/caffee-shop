@@ -7,7 +7,8 @@ const Products = () => {
         <section id="Products">
             <div className="container">
                 <h1 className='heading-black'>Our Top Featured<br/>
-                Categories</h1>
+                Products</h1>
+                <div className='product-container'></div>
             </div>
         </section>
     )

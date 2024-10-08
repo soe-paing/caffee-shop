@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Catamaran&display=swap");
+
 :root {
   --margin: 80px;
   --background: #e2e2f5;
@@ -46,7 +45,6 @@
   padding: 0;
   height: 100vh;
   overflow: hidden;
-  font-family: "Sree Krushnadevaraya", serif;
 }
 #book_body .logo {
   font-size: 20px;

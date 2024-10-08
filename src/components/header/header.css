@@ -10,7 +10,6 @@
     position: absolute;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px 0px;
     margin: 30px 40px;
-    border-radius: var(--);
     top: 0;left: 0;right: 0;
     z-index: 1000;
 }
