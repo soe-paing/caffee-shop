@@ -9,7 +9,7 @@ import Review from './sections/review/Review';
 import Footer from './sections/footer/Footer';
 import InvestmentSection from './sections/investment/InvestmentSection';
 import MenuBook from './sections/menuBook/MenuBook';
-import Products from './sections/products/Products';
+import Categories from './sections/categories/Categories';
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
       <Hero src={HERO_DATA} />
       <Story/>
       <MenuBook/>
-      <Products/>
+      <Categories/>
       <About/>
       <InvestmentSection />
       <Review/>

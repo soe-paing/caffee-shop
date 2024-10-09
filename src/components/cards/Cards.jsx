@@ -4,25 +4,6 @@ import Btn1 from '../buttons/Btn1';
 import propTypes from 'prop-types';
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
-export const Card1 = ({children, img, link='#', sub="Bar System", width="49"}) => (
-    <div className='card1' style={{width: `${width}%`}}>
-        <div style={{backgroundImage: `url(${img})`}}>
-            <div>
-                <span>{sub}</span>
-                <Btn1 rounded={true}>{children}</Btn1>
-            </div>
-        </div>
-    </div>
-)
-
-Card1.propTypes = {
-    children: propTypes.string.isRequired,
-    img: propTypes.string,
-    link: propTypes.string,
-    sub: propTypes.string,
-    width: propTypes.string,
-}
-
 export const SeeMoreText = ({ text, limit }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -45,6 +26,25 @@ export const SeeMoreText = ({ text, limit }) => {
   );
 };
 
+export const Card1 = ({children, img, link='#', sub="Bar System", width="49"}) => (
+    <div className='card1' style={{width: `${width}%`}}>
+        <div style={{backgroundImage: `url(${img})`}}>
+            <div>
+                <span>{sub}</span>
+                <Btn1 rounded={true}>{children}</Btn1>
+            </div>
+        </div>
+    </div>
+)
+
+Card1.propTypes = {
+    children: propTypes.string.isRequired,
+    img: propTypes.string,
+    link: propTypes.string,
+    sub: propTypes.string,
+    width: propTypes.string,
+}
+
 export const Card2 = ({img, name, price, description, width="31.666"}) => (
     <div className='card2' style={{width: `${width}%`}}>
         <div>
@@ -60,3 +60,14 @@ export const Card2 = ({img, name, price, description, width="31.666"}) => (
         </div>
     </div>
 )
+
+export const CategoryCard = ({img, title, description}) => {
+    <div className='category-card'>
+        <img src={img}/>
+        <h2>{title}</h2>
+        <p>{description}</p>
+        <a href="#">
+            View Products
+        </a>
+    </div>
+}
