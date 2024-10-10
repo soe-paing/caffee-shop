@@ -85,6 +85,36 @@
     }
 }
 
+.category-card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    div {
+        width: 100%;
+        aspect-ratio: 1/1.1;
+        background-position: center;
+        background-size: contain;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    h2 {
+        color: var(--black);
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 1.5rem;
+        opacity: 0.6;
+    }
+    p.underline-btn {
+        width: fit-content;
+    }
+}
+
 @media (max-width: 768px) {
     .card1, .card2 {
         width: 100% !important;

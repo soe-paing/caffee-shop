@@ -62,12 +62,14 @@ export const Card2 = ({img, name, price, description, width="31.666"}) => (
 )
 
 export const CategoryCard = ({img, title, description}) => {
-    <div className='category-card'>
-        <img src={img}/>
-        <h2>{title}</h2>
-        <p>{description}</p>
-        <a href="#">
-            View Products
-        </a>
-    </div>
+    return (
+        <div className='category-card'>
+            <div style={{backgroundImage: `url(${img})`}}></div>
+            <h2>{title}</h2>
+            <p>{description}</p>
+            <p className='underline-btn'>
+                View Products
+            </p>
+        </div>
+    )
 }
