@@ -1,5 +1,5 @@
 import { CategoryCard } from '../../components/cards/Cards';
-import { PRODUCTS } from '../../data';
+import { CATEGORIES } from '../../data';
 import './categories.css';
 
 
@@ -11,17 +11,13 @@ const Categories = () => {
                 <h1 className='heading-black'>Our Top Featured<br/>
                 Categories</h1>
                 <div className='product-container'>
-                    {PRODUCTS.map(
-                        (cat, index) => <CategoryCard
+                    {CATEGORIES.map(
+                        (category, index) => <CategoryCard
                                     key={index}
-                                    img={cat.img}
-                                    title={cat.title}
-                                    description={cat.description}/>
+                                    img={category.img}
+                                    title={category.title}
+                                    description={category.description}/>
                     )}
-                    <CategoryCard
-                            img={PRODUCTS.img}
-                            title={PRODUCTS.name}
-                            description={PRODUCTS.description}/>
                 </div>
             </div>
         </section>

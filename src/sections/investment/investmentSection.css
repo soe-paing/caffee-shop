@@ -39,16 +39,6 @@
     text-transform: capitalize;
 }
 
-.investment-section .contant .underline-btn {
-    border-bottom: var(--border);
-    border-color: var(--black);
-    cursor: pointer;
-    &&:hover {
-        color: var(--main-color);
-        border-color: var(--main-color);
-    }
-}
-
 .coffee-img img {
     width: 100%;
 }

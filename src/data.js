@@ -26,6 +26,9 @@ import about5 from './assets/about5.jpg';
 import product1 from './assets/products/rook3.jpg';
 import product2 from './assets/products/redbay3.jpg';
 import product3 from './assets/products/masawa3.jpg';
+import categoryImg1 from './assets/products/categories/coffee.jpg';
+import categoryImg2 from './assets/products/categories/tools.jpeg';
+import categoryImg3 from './assets/products/categories/condiments.jpg';
 
 export const NAV_DATA = ['home','about', 'investment', 'contact'];
 
@@ -160,6 +163,24 @@ export const MENU_DATAS = [
     },
   ]
   },
+]
+
+export const CATEGORIES = [
+  {
+    img: categoryImg1,
+    title: "Coffee",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas.",
+  },
+  {
+    img: categoryImg2,
+    title: "Making Tools",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas.",
+  },
+  {
+    img: categoryImg3,
+    title: "Coffee Condiments",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas.",
+  }
 ]
 
 export const PRODUCTS = [

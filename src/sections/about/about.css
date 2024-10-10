@@ -38,16 +38,6 @@
     text-transform: capitalize;
 }
 
-.about .contant .underline-btn {
-    border-bottom: var(--border);
-    border-color: var(--main-color);
-    cursor: pointer;
-    &&:hover {
-        color: #fff;
-        border-color: #fff;
-    }
-}
-
 .image-slide-container img {
     width: 100%;
 }

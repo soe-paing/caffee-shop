@@ -88,6 +88,16 @@ h5.section-head {
   }
 }
 
+.underline-btn {
+  border-bottom: var(--border);
+  border-color: var(--black);
+  cursor: pointer;
+  &&:hover {
+      color: var(--main-color);
+      border-color: var(--main-color);
+  }
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
