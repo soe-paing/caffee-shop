@@ -10,17 +10,8 @@
     position: absolute;
     top: 0;left: 0;right: 0;
     z-index: 1000;
-    /* overflow-x: hidden; */
     overflow-y: visible;
 }
-  
-/* .header .logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-} */
 
 .header .logo img {
     width: 8rem;
@@ -73,29 +64,11 @@
     }
 }
 
-@media (max-width: 1200px) {
-    /* .header {
-        justify-content: end;
-    } */
-    /* .header .logo {
-        left: 6rem;
-        transform: translate(-15%, -50%);
-    } */
-}
-
 @media (max-width: 768px) {
     .header {
         margin: 0;
         border-radius: 0 !important;
         padding: 2rem;
-        /* background-color: none;
-        backdrop-filter: none; */
-    }
-
-    .header .logo {
-        /* position: absolute;
-        left: 50%;right: 50%;
-        transform: translate(-50%, -50%); */
     }
 
     .header .icons #menu-btn {
