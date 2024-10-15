@@ -13,7 +13,7 @@ section.footer {
     background-repeat: no-repeat;
     background-color: var(--black);
     padding-top: 15rem;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
     /* backdrop-filter: blur; */
 }
 .footer-content {

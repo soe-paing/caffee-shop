@@ -1,4 +1,4 @@
-import cartImg from './assets/logo.png';
+import cartImg from './assets/logo.jpg';
 import heroSlide1 from './assets/slide_01-1.jpg';
 import heroSlide2 from './assets/slide_02-1.jpg';
 import heroSlide3 from './assets/slide_03-1.jpg';

@@ -89,6 +89,7 @@ h5.section-head {
 }
 
 .underline-btn {
+  color: var(--black) !important;
   border-bottom: var(--border);
   border-color: var(--black);
   cursor: pointer;
