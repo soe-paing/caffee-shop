@@ -2,7 +2,8 @@ import './header.css'
 import CartItem from '../cartItem/CartItem';
 import { CART_ITEMS, NAV_DATA} from '../../data';
 import Btn1, { CloseRight } from '../buttons/Btn1';
-import { useEffect, useRef, useState } from 'react'; 
+import { useEffect, useRef, useState } from 'react';
+import logo from '../../assets/logo.jpg';
 
 const Header = () => {
     const [ isActive, setIsActive] = useState(false);
@@ -21,23 +22,23 @@ const Header = () => {
             ref={headerRef}
             className="header"
             onScroll={() => setIsActive(false)}>
+            <a href="#" className="logo">
+                <img src={logo} alt="javatime logo" />
+            </a>
             <nav className={`${isActive} navbar`}>
                 <CloseRight setFalse={() => setIsActive(false)}/>
                 { NAV_DATA.map( (nav, index) => <a key={index} href={nav}>{nav}</a>) }
             </nav>
-            <a href="#" className="logo">
-                <h1>JavaTimesCaffee</h1>
-            </a>
             <div className='icons'>
                 <div 
-                    className="fas fa-search" 
-                    id='search-btn'
+                    className="fas fa-bag-shopping" 
+                    id='cart-btn'
                     onClick={() => {
-                        isActive == 'active-search' ?
-                        setIsActive(false) : setIsActive('active-search');
+                        isActive == 'active-cart' ?
+                        setIsActive(false) : setIsActive('active-cart');
                     }}></div>
                 <div 
-                    className="fas fa-shopping-cart" 
+                    className="fas fa-user" 
                     id='cart-btn'
                     onClick={() => {
                         isActive == 'active-cart' ?
@@ -50,10 +51,6 @@ const Header = () => {
                         isActive == 'active-nav' ?
                         setIsActive(false) : setIsActive('active-nav');
                     }}></div>
-            </div>
-            <div className={`${isActive} search-form`}>
-                <input type="search" placeholder='search here' id="search-box" />
-                <label htmlFor="search-box" className='fas fa-search'></label>
             </div>
             <div className={`${isActive} cart-items-container`}>
                 <CloseRight setFalse={() => setIsActive(false)}/>
