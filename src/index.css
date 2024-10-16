@@ -23,7 +23,7 @@
   /* text-transform: uppercase; */
 }
 
-.header .logo h1, h1.heading, h1.heading-black {
+h1.heading, h1.heading-black {
   font-weight: 700;
 }
 
@@ -104,6 +104,10 @@ h5.section-head {
     font-size: 55%;
   }
 
+  h1.heading, h1.heading-black {
+    font-size: 34px;
+  }
+
   header {
     padding: 1.5rem 2rem;
   }
@@ -114,5 +118,9 @@ h5.section-head {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  h1.heading, h1.heading-black {
+    font-size: 30px;
   }
 }
