@@ -44,9 +44,6 @@
 }
 
 @media (max-width: 768px) {
-    .about {
-        flex-direction: column;
-    }
     .about .container {
         flex-direction: column;
         padding: 5rem 2rem;

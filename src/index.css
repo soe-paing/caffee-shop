@@ -115,12 +115,11 @@ h5.section-head {
 
 
 
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-
+@media (max-width: 546px) {
   h1.heading, h1.heading-black {
-    font-size: 30px;
+    font-size: 26px;
+  }
+  p {
+    font-size: 16px !important;
   }
 }

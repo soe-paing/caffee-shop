@@ -9,9 +9,9 @@ const InvestmentSection = () => {
                 <div className='coffee-img'>
                     <img src={invesCoffee} alt="" />
                 </div>
-                <div className="contant">
-                    <h1 className='heading-black'>Secure your future with Java<br/>
-                    Times Caffee's investment<br/>
+                <div className="content">
+                    <h1 className='heading-black'>Secure your future with<br/>
+                    Java Times Caffee's investment<br/>
                     Opportunity now.
                     </h1>
                     <p>Invest in Java Times Caffee for financial growth and a coffee revolutiron. With 25+ years of expertise, we've grown from a Mexical supplier to a global marketplace. Join us to shape the future of specialt coffee. We prioritize quality and innovation in every aspect, from production to customer service.</p>
