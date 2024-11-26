@@ -53,6 +53,7 @@
         gap: 4rem;
     }
     .investment-section .coffee-img {
+        order: 2;
         width: 75%;
         margin: auto;
     }

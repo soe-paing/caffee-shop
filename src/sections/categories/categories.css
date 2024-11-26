@@ -7,3 +7,11 @@
         gap: 3%;
     }
 }
+
+@media (max-width: 768px) {
+    .product-container {
+        padding: 3rem;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

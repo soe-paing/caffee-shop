@@ -80,22 +80,3 @@
     }
 }
 
-
-@media (max-width: 575px) {
-    .review-body {
-        padding: 0 0 10rem 0 !important;
-        flex-direction: column;
-        align-items: center !important;
-        div:first-child {
-            text-align: center;
-            aspect-ratio: 5/3 !important;
-        }
-    }
-    .review-body>div {
-        width: 60% !important;
-    }
-    .review-body>div:nth-child(2) {
-        margin-bottom: 20%;
-    }
-}
-

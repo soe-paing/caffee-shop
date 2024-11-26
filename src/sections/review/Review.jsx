@@ -6,7 +6,7 @@ import profi2 from '../../assets/review2.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 const ReviewCard = ({name, img, children}) => (
     <div className='review-card'>
@@ -43,10 +43,28 @@ const Review = () => {
                     From Our Clients
                 </h1>
                 <Swiper
-                    slidesPerView={3}
+                    slidesPerView={1}
                     spaceBetween={30}
                     pagination={{ clickable: true }}
-                    modules={[Pagination]}
+                    autoplay={{
+                        delay: 5000, // Delay between slides in milliseconds
+                        disableOnInteraction: false, // Keep autoplay active even when users interact
+                    }}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1, // Mobile view
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2, // Tablet view
+                            spaceBetween: 30,
+                        },
+                        1024: {
+                            slidesPerView: 3, // Desktop view
+                            spaceBetween: 40,
+                        },
+                    }}
+                    modules={[Pagination, Autoplay]}
                     className="mySwiper review-body"
                 >
                     <SwiperSlide>
