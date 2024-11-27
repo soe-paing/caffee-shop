@@ -12,6 +12,6 @@
     .product-container {
         padding: 3rem;
         flex-direction: column;
-        gap: 20px;
+        gap: 5rem !important;
     }
 }

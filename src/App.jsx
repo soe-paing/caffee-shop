@@ -10,20 +10,22 @@ import Footer from './sections/footer/Footer';
 import InvestmentSection from './sections/investment/InvestmentSection';
 import MenuBook from './sections/menuBook/MenuBook';
 import Categories from './sections/categories/Categories';
+import Products from './pages/products/Products';
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Hero src={HERO_DATA} />
+      {/* <Hero src={HERO_DATA} />
       <Story/>
       <MenuBook/>
       <Categories/>
       <About/>
       <InvestmentSection />
       <Review/>
-      <Footer/>
+      <Footer/> */}
+      <Products/>
     </>
   )
 }
