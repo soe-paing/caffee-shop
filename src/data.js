@@ -201,5 +201,23 @@ export const PRODUCTS = [
     price: '12.33$',
     img: product3,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
+  },
+  {
+    name: 'Rook Coffee',
+    price: '12.33$',
+    img: product1,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
+  },
+  {
+    name: 'Redbay Coffee',
+    price: '12.33$',
+    img: product2,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
+  },
+  {
+    name: 'Masawa Coffee',
+    price: '12.33$',
+    img: product3,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
   }
 ]

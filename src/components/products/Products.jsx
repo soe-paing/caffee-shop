@@ -9,20 +9,15 @@ const Products = () => {
     return (
         <section id='Products'>
             <div className="container">
-                <h5 className="section-head">
-                    <span>Latest</span><br/>
-                    Products
-                </h5>
-                <div className='card-container'>
-                {
-                    PRODUCTS.map((prod, index) => <Card2 key={index} name={prod.name} price={prod.price} img={prod.img} description={prod.description}/>)
-                }
-                </div>
-            </div>
-            <div className='container more-products'>
-                <Line/>
-                <Btn1 rounded={true}>More Products</Btn1>
-                <Line/>
+                <ul className='product-list'>
+                    {
+                        PRODUCTS.map((prod, index) => (
+                            <li key={index}>
+                                <Card2 name={prod.name} price={prod.price} img={prod.img} description={prod.description}/>
+                            </li>
+                        ))
+                    }
+                </ul>
             </div>
         </section>
     )

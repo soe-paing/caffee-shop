@@ -45,7 +45,7 @@ Card1.propTypes = {
     width: propTypes.string,
 }
 
-export const Card2 = ({img, name, price, description, width="31.666"}) => (
+export const Card2 = ({img, name, price, description, width="100"}) => (
     <div className='card2' style={{width: `${width}%`}}>
         <div>
             <div className='img'>
@@ -74,28 +74,3 @@ export const CategoryCard = ({img, title, description}) => {
     )
 }
 
-
-
-export function ProductCard({
-    id,
-    image,
-    title,
-    price,
-    description,
-}) {
-    return (
-        <article className="product">
-            <img src={image} alt={title} />
-            <div className="product-content">
-                <div>
-                    <h3>{title}</h3>
-                    <p className='product-price'>${price}</p>
-                    <p>{description}</p>
-                </div>
-                <p className='product-actions'>
-                    <button>Add to Cart</button>
-                </p>
-            </div>
-        </article>
-    );
-}

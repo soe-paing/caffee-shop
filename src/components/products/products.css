@@ -5,33 +5,12 @@ section#Products {
     background-attachment: fixed;
 }
 
-#Products>.container {
-    
-    .card-container {
-        display: flex;
-        justify-content: space-between;
-    }
+.product-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 4rem;
 }
-
-#Products>.more-products {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12rem 0;
-    .line {
-        margin: 0 2rem;
-        padding: 0;
-        flex-grow: 1 !important;
-        height: 0px !important;
-        border-bottom: 1px solid #fff;
-    }
-}
-
-@media (max-width: 768px) {
-    .card-container {
-        flex-direction: column;
-        .card2 {
-            margin-bottom: 40px;
-        }
-    }
-}
+  
