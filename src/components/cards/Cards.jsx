@@ -13,7 +13,7 @@ export const SeeMoreText = ({ text, limit }) => {
 
   return (
     <p>
-        {isExpanded ? text : `${text.substring(0, limit)}...`}
+        {isExpanded ? text : `${text.substring(0, limit)} . . . `}
         {text.length > limit && (
             <span 
                 onClick={toggleExpand} 

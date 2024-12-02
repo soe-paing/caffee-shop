@@ -39,7 +39,7 @@
     display: inline-block;
     position: relative;
     >div {
-        background-color: var(--second-bg);
+        background-color: var(--text-coffee);
         border-radius: 6px !important;
         padding-bottom: 20px;
         .img {
@@ -79,7 +79,7 @@
             padding: 0 20px;
             margin: 0;
             font-size: 1.4rem;
-            color: #8c8c8c;
+            color: #ffffffc0;
             text-transform: capitalize !important;
         }
     }

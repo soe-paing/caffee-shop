@@ -1,8 +1,6 @@
 section#Products {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: var(--main-color);
+    padding-top: 10rem;
 }
 
 .product-list {
