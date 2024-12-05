@@ -185,39 +185,45 @@ export const CATEGORIES = [
 
 export const PRODUCTS = [
   {
-    name: 'Rook Coffee',
+    id: "p1",
+    title: 'Rook Coffee',
     price: '12.33$',
-    img: product1,
+    image: product1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
   },
   {
-    name: 'Redbay Coffee',
+    id: "p2",
+    title: 'Redbay Coffee',
     price: '12.33$',
-    img: product2,
+    image: product2,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
   },
   {
-    name: 'Masawa Coffee',
+    id: "p3",
+    title: 'Masawa Coffee',
     price: '12.33$',
-    img: product3,
+    image: product3,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
   },
   {
-    name: 'Rook Coffee',
+    id: "p4",
+    title: 'Rook Coffee',
     price: '12.33$',
-    img: product1,
+    image: product1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
   },
   {
-    name: 'Redbay Coffee',
+    id: "p5",
+    title: 'Redbay Coffee',
     price: '12.33$',
-    img: product2,
+    image: product2,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
   },
   {
-    name: 'Masawa Coffee',
+    id: "p6",
+    title: 'Masawa Coffee',
     price: '12.33$',
-    img: product3,
+    image: product3,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas, fugiat perferendis sed ea quam officiis quia, ducimus rem perspiciatis.',
   }
 ]

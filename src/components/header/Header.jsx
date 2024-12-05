@@ -1,11 +1,13 @@
 import './header.css'
 import { NAV_DATA} from '../../data';
 import { CloseRight } from '../buttons/Btn1';
-import { useEffect, useRef, useState } from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
 import logo from '../../assets/logo.jpg';
 import CartModal from '../cartModal/cartModal';
+import { CartContext } from '../../store/shop-cart-context';
 
 const Header = () => {
+    const { items } = useContext(CartContext);
     const [ isActive, setIsActive] = useState(false);
     const headerRef = useRef(null);
     const modal = useRef();
@@ -15,16 +17,18 @@ const Header = () => {
       isActive == 'active-cart' ?
       setIsActive(false) : setIsActive('active-cart');
     }
+
+    const cartQuantity = items.length;
     
     let modalActions = <button>Close</button>;
 
-    if (2 > 0) {
-      modalActions = (
-        <>
-          <button>Close</button>
-          <button>Checkout</button>
-        </>
-      );
+    if (cartQuantity > 0) {
+        modalActions = (
+            <>
+                <button>Close</button>
+                <button>Checkout</button>
+            </>
+        );
     }
 
     useEffect(() => {

@@ -1,7 +1,6 @@
 import { Card2 } from '../cards/Cards';
 import './products.css';
 import { PRODUCTS } from '../../data';
-import Btn1 from '../buttons/Btn1';
 
 const Line = () => <div className='line'></div>
 
@@ -13,7 +12,7 @@ const Products = () => {
                     {
                         PRODUCTS.map((prod, index) => (
                             <li key={index}>
-                                <Card2 name={prod.name} price={prod.price} img={prod.img} description={prod.description}/>
+                                <Card2 name={prod.title} price={prod.price} img={prod.image} description={prod.description}/>
                             </li>
                         ))
                     }

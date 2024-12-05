@@ -11,11 +11,12 @@ import InvestmentSection from './sections/investment/InvestmentSection';
 import MenuBook from './sections/menuBook/MenuBook';
 import Categories from './sections/categories/Categories';
 import Products from './components/products/Products';
+import CartContextProvider from './store/shop-cart-context';
 
 function App() {
 
   return (
-    <>
+    <CartContextProvider>
       <Header/>
       {/* <Hero src={HERO_DATA} />
       <Story/>
@@ -26,7 +27,7 @@ function App() {
       <Review/>
       <Footer/> */}
       <Products/>
-    </>
+    </CartContextProvider>
   )
 }
 

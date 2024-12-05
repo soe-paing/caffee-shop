@@ -1,0 +1,104 @@
+
+
+#modal {
+    width: 30%;
+    background: #d3b17b;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fade-slide-in-from-top 0.3s ease-in-out;
+  }
+  
+  #modal dialog {
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  #modal::backdrop {
+    background: rgba(0, 0, 0, 0.65);
+  }
+  
+  #modal h2 {
+    font-size: 2.3rem;
+    color: #4f3807;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  #modal form {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #modal form button {
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #201e1a;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  #modal form button:hover {
+    color: #453719;
+  }
+  
+  #modal form button:last-of-type {
+    background: #271e07;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #f9efda;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  #modal form button:last-of-type:hover {
+    background: #382e1b;
+  }
+  
+  #checkout {
+    animation: fade-slide-in-from-right 0.3s ease-in-out;
+  }
+  
+  #checkout label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #checkout input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+  }
+
+  #modal-actions button{
+    font-size: 1.7rem !important;
+  }
+  
+  @keyframes fade-slide-in-from-top {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-slide-in-from-right {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
