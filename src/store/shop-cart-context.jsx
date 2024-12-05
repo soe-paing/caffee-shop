@@ -28,6 +28,8 @@ function shoppingCartReducer (state, action) {
       });
     }
 
+    console.log(updatedItems)
+
     return {
       items: updatedItems,
     };
@@ -67,6 +69,7 @@ export default function CartContextProvider({children}) {
   );
 
   function handleAddItemToCart(id) {
+    console.log(id)
     shoppingCartDispatch({
       type: "ADD_ITEM",
       payload: id

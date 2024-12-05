@@ -5,7 +5,7 @@ import './btn.css'
 
 export const CloseRight = ({setFalse}) => <i onClick={setFalse} className='fas close-right-tap fa-angle-right'></i>
 
-const Btn1 = ({children, rounded = false, size = 'medium'}) => {
+const Btn1 = ({children, rounded = false, size = 'medium', ...props}) => {
     const buttonRef = useRef(null);
 
     useEffect(() => {
@@ -20,6 +20,7 @@ const Btn1 = ({children, rounded = false, size = 'medium'}) => {
         <button
             className="btn1"
             ref={buttonRef}
+            {...props}
             style={{padding: `${
                 size == 'small' ? '0.5rem 1.2rem' :
                 size == 'large' ? '2rem 5rem' :

@@ -45,16 +45,16 @@ Card1.propTypes = {
     width: propTypes.string,
 }
 
-export const Card2 = ({img, name, price, description, width="100"}) => (
+export const Card2 = ({id, img, name, price, description, addItem, width="100"}) => (
     <div className='card2' style={{width: `${width}%`}}>
         <div>
             <div className='img'>
                 <img src={img} alt="img" />
             </div>
-            <span className='price'>{price}</span>
+            <span className='price'>$ {price}</span>
             <div className='content'>
                 <h2>{name}</h2>
-                <Btn1 size='small' rounded={true}>Add To Cart</Btn1>
+                <Btn1 size='small' onClick={() => addItem(id)} rounded={true}>Add To Cart</Btn1>
             </div>
             <SeeMoreText text={description} limit={78} />
         </div>

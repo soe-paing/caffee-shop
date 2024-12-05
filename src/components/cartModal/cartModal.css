@@ -11,7 +11,7 @@
   
   #modal dialog {
     margin: auto;
-    padding: 1rem;
+    padding: 1.5rem;
   }
   
   #modal::backdrop {
