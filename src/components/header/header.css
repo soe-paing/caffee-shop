@@ -70,6 +70,16 @@ header {
     }
 }
 
+.bage {
+    position: absolute;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    font-size: 1.7rem;
+    padding: .1rem .7rem;
+    border-radius: 5rem;
+    background-color: var(--black);
+}
+
 @media (max-width: 768px) {
     .header {
         margin: 0;

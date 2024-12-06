@@ -62,7 +62,9 @@ const Header = () => {
                             className="fas fa-bag-shopping" 
                             id='cart-btn'
                             onClick={handleOpenCartClick}
-                        ></div>
+                        >
+                            {cartQuantity > 0 && <span className='bage'>{cartQuantity}</span>}
+                        </div>
                         <div 
                             className="fas fa-user" 
                             id='cart-btn'

@@ -18,14 +18,14 @@ function App() {
   return (
     <CartContextProvider>
       <Header/>
-      {/* <Hero src={HERO_DATA} />
+      <Hero src={HERO_DATA} />
       <Story/>
       <MenuBook/>
       <Categories/>
       <About/>
       <InvestmentSection />
       <Review/>
-      <Footer/> */}
+      <Footer/>
       <Products/>
     </CartContextProvider>
   )
