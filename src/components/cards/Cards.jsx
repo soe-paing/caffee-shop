@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Btn1 from '../buttons/Btn1';
 import propTypes from 'prop-types';
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
+import { useNavigate } from 'react-router-dom';
 
 export const SeeMoreText = ({ text, limit }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -62,12 +63,13 @@ export const Card2 = ({id, img, name, price, description, addItem, width="100"})
 )
 
 export const CategoryCard = ({img, title, description}) => {
+    const navigate = useNavigate()
     return (
         <div className='category-card'>
             <div style={{backgroundImage: `url(${img})`}}></div>
             <h2>{title}</h2>
             <p>{description}</p>
-            <p className='underline-btn'>
+            <p onClick={() => navigate('/products')} className='underline-btn'>
                 View Products
             </p>
         </div>

@@ -1,4 +1,4 @@
-import { Card2 } from '../cards/Cards';
+import { Card2 } from '../../components/cards/Cards';
 import './products.css';
 import { PRODUCTS } from '../../data';
 import { useContext } from 'react';

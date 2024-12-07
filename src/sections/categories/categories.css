@@ -1,15 +1,15 @@
-#Products {
+#categories {
     .container {
         padding: 12rem 0;
     }
-    .product-container {
+    .categorie-container {
         display: flex;
         gap: 3%;
     }
 }
 
 @media (max-width: 768px) {
-    .product-container {
+    .categorie-container {
         padding: 3rem;
         flex-direction: column;
         gap: 5rem !important;

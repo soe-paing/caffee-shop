@@ -6,11 +6,11 @@ import './categories.css';
 const Categories = () => {
 
     return (
-        <section id="Products">
+        <section id="categories">
             <div className="container">
                 <h1 className='heading-black'>Our Top Featured<br/>
                 Categories</h1>
-                <div className='product-container'>
+                <div className='categorie-container'>
                     {CATEGORIES.map(
                         (category, index) => <CategoryCard
                                     key={index}

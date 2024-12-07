@@ -5,6 +5,7 @@ import { useContext, useEffect, useRef, useState } from 'react';
 import logo from '../../assets/logo.jpg';
 import CartModal from '../cartModal/cartModal';
 import { CartContext } from '../../store/shop-cart-context';
+import { Outlet } from 'react-router-dom';
 
 const Header = () => {
     const { items } = useContext(CartContext);
@@ -82,6 +83,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+            <Outlet/>
         </>
     )
 }
