@@ -4,7 +4,7 @@ import invesCoffee from '../../assets/coffeebeans.jpeg'
 
 const InvestmentSection = () => {
     return (
-        <section className='investment-section'>
+        <section className='investment-section' id='investment'>
             <div className="container">
                 <div className='coffee-img'>
                     <img src={invesCoffee} alt="" />

@@ -52,7 +52,7 @@ const Hero = ({ src, speed = 8000, switchSpeed = 800, interval = 8000, autoplay 
   };
 
   return (
-    <section className={`zoom-slider ${overlay ? `overlay-${overlay}` : ''}`}>
+    <section id='home' className={`zoom-slider ${overlay ? `overlay-${overlay}` : ''}`}>
       <div className="slides">
         {src.map((data, index) => (
           <div

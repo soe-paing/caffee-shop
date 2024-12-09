@@ -30,7 +30,7 @@ import categoryImg1 from './assets/products/categories/coffee.jpg';
 import categoryImg2 from './assets/products/categories/tools.jpeg';
 import categoryImg3 from './assets/products/categories/condiments.jpg';
 
-export const NAV_DATA = ['home','about', 'investment', 'contact'];
+export const NAV_DATA = ['home', 'menu','about', 'investment'];
 
 export const CART_ITEMS = [
     {

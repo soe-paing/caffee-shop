@@ -56,7 +56,7 @@ const Header = () => {
                     </a>
                     <nav className={`${isActive} navbar`}>
                         <CloseRight setFalse={() => setIsActive(false)}/>
-                        { NAV_DATA.map( (nav, index) => <a key={index} href={nav}>{nav}</a>) }
+                        { NAV_DATA.map( (nav, index) => <a key={index} href={`#${nav}`}>{nav}</a>) }
                     </nav>
                     <div className='icons'>
                         <div 

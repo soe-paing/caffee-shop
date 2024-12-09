@@ -3,7 +3,7 @@ import './menuBook.css'; // Assuming you have a CSS file for styling
 
 const MenuBook = () => {
   return (
-    <section id='book_body'>
+    <section id='menu' className='book_body'>
 
       <h1 className='heading'>Java Time Caffee<br/>Table Menu</h1>
 

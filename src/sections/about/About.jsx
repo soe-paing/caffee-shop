@@ -5,7 +5,7 @@ import SvgSlider from '../../components/svgSlider/SvgSlider';
 const About = () => {
 
     return (
-        <section className='about' id='About'>
+        <section className='about' id='about'>
             <div className='container'>
                 <div className="content">
                     <h1 className='heading'>Elvating Coffee with 35+<br/>
