@@ -700,9 +700,9 @@
   transform: rotateY(180deg);
 }
 .book_body .pages_page:nth-of-type(1) .pages_page__inner {
-  background-size: 880px !important;
-  background-position: center !important;
-  background: url("https://cdnfl01.viewbug.com/media/mediafiles/2017/10/16/75667840_large.jpg");
+  background-size: 1350px !important;
+  background-position: bottom !important;
+  background: url("https://png.pngtree.com/thumb_back/fw800/background/20240327/pngtree-cup-of-coffee-on-a-black-background-with-smoke-top-view-image_15677518.jpg");
 }
 .book_body .pages_page:nth-of-type(2) .pages_page__inner {
   background-size: 870px !important;
@@ -714,7 +714,7 @@
   z-index: 3;
 }
 .book_body .pages_page:nth-of-type(3) .pages_page__inner {
-  background: url("https://iso.500px.com/wp-content/uploads/2014/12/fashion_1.jpg");
+  background: url("https://png.pngtree.com/thumb_back/fw800/background/20240522/pngtree-a-black-cup-of-black-coffee-on-a-black-table-golden-image_15668758.jpg");
   background-position: 0 0;
 }
 .book_body .pages_page:nth-of-type(3) .pages_page__inner .content {
@@ -742,17 +742,17 @@
   height: 100%;
   width: 200%;
   position: relative;
-  background: url("https://iso.500px.com/wp-content/uploads/2014/12/fashion_1.jpg");
+  background: url("https://png.pngtree.com/thumb_back/fw800/background/20240522/pngtree-a-black-cup-of-black-coffee-on-a-black-table-golden-image_15668758.jpg");
   background-size: 1400px !important;
   left: -100%;
 }
 .book_body .pages_page:nth-of-type(5) .pages_page__inner {
-  background: url("http://cdn.lightgalleries.net/4d80d92265da9/images/Tayna16-12_90574-2.jpg");
-  background-size: 870px !important;
+  background: url("https://img.freepik.com/premium-photo/cakes-showcase-coffee-shop_198067-567310.jpg");
+  background-size: 970px !important;
   background-position: center !important;
 }
 .book_body .pages_page:nth-of-type(7) .pages_page__inner {
-  background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
+  background: url("https://static.vecteezy.com/system/resources/previews/049/016/690/large_2x/overhead-view-of-red-coffee-pot-with-coffee-beans-on-red-background-modern-and-minimalist-coffee-concept-free-photo.jpeg");
   background-position: 0 0;
   background-size: 1400px !important;
 }
@@ -785,7 +785,7 @@
   width: 260px;
 }
 .book_body .pages_page:nth-of-type(8) .pages_page__inner {
-  background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
+  background: url("https://static.vecteezy.com/system/resources/previews/049/016/690/large_2x/overhead-view-of-red-coffee-pot-with-coffee-beans-on-red-background-modern-and-minimalist-coffee-concept-free-photo.jpeg");
   background-position: 0 0;
 }
 .book_body .pages_page:nth-of-type(8) .pages_page__inner .content {
@@ -802,7 +802,7 @@
   height: 100%;
   width: 200%;
   position: relative;
-  background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
+  background: url("https://static.vecteezy.com/system/resources/previews/049/016/690/large_2x/overhead-view-of-red-coffee-pot-with-coffee-beans-on-red-background-modern-and-minimalist-coffee-concept-free-photo.jpeg");
   background-size: 1400px !important;
   left: -100%;
 }

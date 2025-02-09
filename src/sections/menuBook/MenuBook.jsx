@@ -5,7 +5,7 @@ const MenuBook = () => {
   return (
     <section id='menu' className='book_body'>
 
-      <h1 className='heading'>Java Time Caffee<br/>Table Menu</h1>
+      {/* <h1 className='heading'>Java Time Caffee<br/>Table Menu</h1> */}
 
       <div className='pages'>
         <input id='one' name='trigger' type='radio' />
@@ -16,7 +16,7 @@ const MenuBook = () => {
         {/* Page 1 */}
         <div className='pages_page'>
           <div className='pages_page__inner'>
-            <div className='logo'>Fashion</div>
+            <div className='logo'>Shop Menu</div>
             <div className='pagenumber'>1 2</div>
             <div className='content'>
               <div className='content_center'>
@@ -44,7 +44,7 @@ const MenuBook = () => {
         {/* Page 3 */}
         <div className='pages_page'>
           <div className='pages_page__inner'>
-            <div className='logo'>Fashion</div>
+            <div className='logo'>Shop Menu</div>
             <div className='pagenumber'>2 3</div>
             <div className='control'>
               <label htmlFor='one'></label>
@@ -186,7 +186,7 @@ const MenuBook = () => {
         {/* Page 5 */}
         <div className='pages_page'>
           <div className='pages_page__inner'>
-            <div className='logo'>Fashion</div>
+            <div className='logo'>Shop Menu</div>
             <div className='pagenumber'>4 5</div>
             <div className='content'>
               <div className='content_center'>
@@ -233,7 +233,7 @@ const MenuBook = () => {
         {/* Page 7 */}
         <div className='pages_page'>
           <div className='pages_page__inner'>
-            <div className='logo'>Fashion</div>
+            <div className='logo'>Shop Menu</div>
             <div className='pagenumber'>6 7</div>
             <div className='content'>
               <div className='content_section'>

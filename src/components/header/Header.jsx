@@ -51,12 +51,12 @@ const Header = () => {
                 ref={headerRef}
                 onScroll={() => setIsActive(false)}>
                 <div className="header">
-                    <a href="#" className="logo">
+                    <a href="#home" className="logo">
                         <img src={logo} alt="javatime logo" />
                     </a>
                     <nav className={`${isActive} navbar`}>
                         <CloseRight setFalse={() => setIsActive(false)}/>
-                        { NAV_DATA.map( (nav, index) => <a key={index} href={`#${nav}`}>{nav}</a>) }
+                        { NAV_DATA.map( (nav, index) => <a key={index} href={`../#${nav}`}>{nav}</a>) }
                     </nav>
                     <div className='icons'>
                         <div 
