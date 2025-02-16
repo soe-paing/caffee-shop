@@ -13,6 +13,10 @@
 .card-container {
     display: flex;
     justify-content: space-evenly;
+    gap: 20px;
+    >div {
+        width: 49%;
+    }
 }
 
 @media (max-width: 768px) {

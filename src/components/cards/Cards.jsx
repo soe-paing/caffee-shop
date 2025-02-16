@@ -27,8 +27,8 @@ export const SeeMoreText = ({ text, limit }) => {
   );
 };
 
-export const Card1 = ({children, img, link='#', sub="Bar System", width="49"}) => (
-    <div className='card1' style={{width: `${width}%`}}>
+export const Card1 = ({children, img, link='#', sub="Bar System"}) => (
+    <div className='card1'>
         <div style={{backgroundImage: `url(${img})`}}>
             <div>
                 <span>{sub}</span>

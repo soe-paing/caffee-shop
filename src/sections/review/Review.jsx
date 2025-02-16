@@ -1,4 +1,5 @@
 import './review.css';
+import { motion } from 'framer-motion';
 
 import profi1 from '../../assets/review1.jpg';
 import profi2 from '../../assets/review2.jpg';
@@ -9,7 +10,13 @@ import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 const ReviewCard = ({name, img, children}) => (
-    <div className='review-card'>
+    <motion.div 
+        className='review-card'
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+    >
         <span>
             <i className='fas fa-quote-right'></i>
         </span>
@@ -30,18 +37,30 @@ const ReviewCard = ({name, img, children}) => (
                 <img src={img} alt="profile" />
             </figure>
         </div>
-    </div>
+    </motion.div>
 )
 
 const Review = () => {
     return (
-        <section id="review">
+        <motion.section 
+            id="review"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+        >
             <div className='review-background-overlay'></div>
             <div className='container'>
-                <h1 className='heading-black'>
+                <motion.h1 
+                    className='heading-black'
+                    initial={{ opacity: 0, y: -30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
+                >
                     Stories and Testimonials<br/>
                     From Our Clients
-                </h1>
+                </motion.h1>
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
@@ -99,7 +118,7 @@ const Review = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-        </section>
+        </motion.section>
     )
 }
 

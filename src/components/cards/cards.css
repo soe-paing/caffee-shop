@@ -3,6 +3,7 @@
     padding: 1.5rem;
     position: relative;
     display: inline-block;
+    width: 100%;
 }
 
 .card1 div {
