@@ -6,7 +6,13 @@ import invesCoffee from '../../assets/coffeebeans.jpeg'
 const InvestmentSection = () => {
     const fadeInScale = {
         initial: { opacity: 0, scale: 0.8 },
-        animate: { opacity: 1, scale: 1 }
+        animate: { 
+            opacity: 1, 
+            scale: 1,
+            transition: {
+                duration: 1.2
+            }
+        }
     };
 
     return (
@@ -16,7 +22,7 @@ const InvestmentSection = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
+            transition={{ duration: 1.5 }}
         >
             <div className="container">
                 <motion.div 
@@ -31,7 +37,7 @@ const InvestmentSection = () => {
                         initial: { opacity: 0, x: 100 },
                         animate: { opacity: 1, x: 0 }
                     }}
-                    transition={{ delay: 0.3 }}
+                    transition={{ delay: 0.6, duration: 1.2 }}
                 >
                     <h1 className='heading-black'>Secure your future with<br/>Java Times Caffee's investment<br/>Opportunity now.</h1>
                     <p>Invest in Java Times Caffee for financial growth and a coffee revolutiron. With 25+ years of expertise, we've grown from a Mexical supplier to a global marketplace. Join us to shape the future of specialt coffee. We prioritize quality and innovation in every aspect, from production to customer service.</p>
@@ -40,7 +46,7 @@ const InvestmentSection = () => {
             </div>
             <motion.div
                 variants={fadeInScale}
-                transition={{ delay: 0.5 }}
+                transition={{ delay: 0.8, duration: 1.2 }}
             >
                 <InvestorsCount />
             </motion.div>

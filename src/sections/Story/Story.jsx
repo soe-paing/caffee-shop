@@ -16,18 +16,19 @@ const Story = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 1.2 }}
         >
             <motion.h1 
                 className='heading-black'
                 variants={fadeInUp}
+                transition={{ duration: 1 }}
             >
                 Unveiling the Story of<br/>Java Time Coffee
             </motion.h1>
             <motion.div 
                 className='story-paragraph'
                 variants={fadeInUp}
-                transition={{ delay: 0.4 }}
+                transition={{ delay: 0.4, duration: 1 }}
             >
                 <p>Welcom to Java Time Caffee, your ultimate destination for premium coffee, tea, chocolate, and bakery delights worldwide. We're dedicated to delivering top-notch products and a seamless online shopping experience. Plus, we're expanding with 300 new coffee shops by 2029 to bring our passion to more communities. Join us to explore and savor the best tea, coffee, chocolate, and bakery treats!</p>
             </motion.div>
@@ -38,7 +39,8 @@ const Story = () => {
                     animate: { 
                         opacity: 1,
                         transition: {
-                            staggerChildren: 0.2
+                            staggerChildren: 0.4,
+                            delayChildren: 0.6
                         }
                     }
                 }}

@@ -1171,6 +1171,22 @@
   pointer-events: none;
   z-index: 9;
 }
+.book_body .pages input[type=radio]:nth-of-type(3):checked + input + div + div + div + div + div {
+  pointer-events: all;
+  transform: rotateY(-180deg);
+  z-index: 10;
+  transition: var(--transition);
+}
+.book_body .pages input[type=radio]:nth-of-type(3):checked + input + div + div + div + div + div .control {
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0);
+}
+.book_body .pages input[type=radio]:nth-of-type(3):checked + input + div + div + div + div + div + div {
+  pointer-events: all;
+}
+.book_body .pages input[type=radio]:nth-of-type(3):checked + input + div + div + div + div {
+  pointer-events: none;
+  z-index: 9;
+}
 .book_body .pages input[type=radio]:nth-of-type(4):checked + div + div {
   pointer-events: all;
   transform: rotateY(-180deg);
@@ -1266,4 +1282,27 @@
 .book_body .pages input[type=radio]:nth-of-type(4):checked + div + div + div + div + div + div {
   pointer-events: none;
   z-index: 9;
+}
+.book_body .pages_page:nth-of-type(3) .pages_page__inner {
+  background: url("../../assets/menu-coffee-1.jpg");
+  background-position: 0 0;
+}
+
+.book_body .pages_page:nth-of-type(4) .pages_page__inner .bg {
+  background: url("../../assets/menu-coffee-2.jpg");
+  background-size: 1400px !important;
+}
+
+.book_body .pages_page:nth-of-type(5) .pages_page__inner {
+  background: url("../../assets/menu-pastry.jpg");
+  background-size: 970px !important;
+  background-position: center !important;
+}
+
+.book_body .pages_page:nth-of-type(7) .pages_page__inner,
+.book_body .pages_page:nth-of-type(8) .pages_page__inner,
+.book_body .pages_page:nth-of-type(8) .pages_page__inner .bg {
+  background: url("../../assets/menu-coffee-3.jpg");
+  background-position: 0 0;
+  background-size: 1400px !important;
 }

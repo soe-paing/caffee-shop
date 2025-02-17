@@ -9,14 +9,22 @@ const Categories = () => {
         animate: { 
             opacity: 1,
             transition: {
-                staggerChildren: 0.2
+                staggerChildren: 0.4,
+                delayChildren: 0.3,
+                duration: 1.2
             }
         }
     };
 
     const itemVariants = {
         initial: { opacity: 0, y: 30 },
-        animate: { opacity: 1, y: 0 }
+        animate: { 
+            opacity: 1, 
+            y: 0,
+            transition: {
+                duration: 1
+            }
+        }
     };
 
     return (
@@ -25,7 +33,7 @@ const Categories = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 1.2 }}
         >
             <div className="container">
                 <motion.h1 

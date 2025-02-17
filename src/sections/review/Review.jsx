@@ -15,7 +15,7 @@ const ReviewCard = ({name, img, children}) => (
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 1.2 }}
     >
         <span>
             <i className='fas fa-quote-right'></i>
@@ -47,7 +47,7 @@ const Review = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 1.5 }}
         >
             <div className='review-background-overlay'></div>
             <div className='container'>
@@ -56,7 +56,7 @@ const Review = () => {
                     initial={{ opacity: 0, y: -30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.5 }}
+                    transition={{ duration: 1.2, delay: 0.3 }}
                 >
                     Stories and Testimonials<br/>
                     From Our Clients
@@ -66,7 +66,7 @@ const Review = () => {
                     spaceBetween={30}
                     pagination={{ clickable: true }}
                     autoplay={{
-                        delay: 5000, // Delay between slides in milliseconds
+                        delay: 8000, // Delay between slides in milliseconds
                         disableOnInteraction: false, // Keep autoplay active even when users interact
                     }}
                     breakpoints={{
