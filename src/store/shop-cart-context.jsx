@@ -1,4 +1,5 @@
-import { createContext, useReducer, useState } from 'react';
+import { createContext, useReducer } from 'react';
+import PropTypes from 'prop-types';
 import { PRODUCTS } from '../data';
 
 export const CartContext = createContext();
@@ -59,7 +60,8 @@ function shoppingCartReducer (state, action) {
   }
 }
 
-export default function CartContextProvider({children}) {
+// eslint-disable-next-line react/prop-types
+export default function CartContextProvider({ children }) {
 
   const [ shoppingCartState, shoppingCartDispatch ] = useReducer(
     shoppingCartReducer,
@@ -92,7 +94,11 @@ export default function CartContextProvider({children}) {
 
   return (
       <CartContext.Provider value={ctxValue}>
-          {children}
+        {children}
       </CartContext.Provider>
   )
+}
+
+CartContextProvider.prototype = {
+  children: PropTypes.any.isRequired,
 }

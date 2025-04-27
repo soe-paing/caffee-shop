@@ -1,4 +1,3 @@
-import cartImg from './assets/logo.jpg';
 import heroSlide1 from './assets/slide_01-1.jpg';
 import heroSlide2 from './assets/slide_02-1.jpg';
 import heroSlide3 from './assets/slide_03-1.jpg';
@@ -18,11 +17,6 @@ import teaImg2 from './assets/Tea/tra-dao-cam-sa-new-110x110.png';
 import teaImg3 from './assets/Tea/tra-dau-new-110x110.png';
 import teaImg4 from './assets/Tea/dualuoi-png-110x110.png';
 import teaImg5 from './assets/Tea/tra-vai-new-110x110.png';
-import about1 from './assets/about1.jpg';
-import about2 from './assets/about2.jpg';
-import about3 from './assets/about3.jpg';
-import about4 from './assets/about4.jpg';
-import about5 from './assets/about5.jpg';
 import product1 from './assets/products/rook3.jpg';
 import product2 from './assets/products/redbay3.jpg';
 import product3 from './assets/products/masawa3.jpg';
@@ -31,24 +25,6 @@ import categoryImg2 from './assets/products/categories/tools.jpeg';
 import categoryImg3 from './assets/products/categories/condiments.jpg';
 
 export const NAV_DATA = ['home', 'menu','about', 'investment'];
-
-export const CART_ITEMS = [
-    {
-        name: "cart item 1",
-        image: cartImg,
-        price: "$15.99/-",
-    },
-    {
-        name: "cart item 2",
-        image: cartImg,
-        price: "$15.99/-",
-    },
-    {
-        name: "cart item 3",
-        image: cartImg,
-        price: "$15.99/-",
-    }
-]
 
 export const HERO_DATA = [
     {
@@ -66,10 +42,6 @@ export const HERO_DATA = [
       image: heroQ3,
       quote: "Stemming from a special love for coffee, considering coffee as a proud start, The Coffee VN was born to satisfy the desire to provide the best coffee service to the people who enjoy it.",
     }
-]
-
-export const ABOUT_iMGS = [
-  product1, product2, product3
 ]
 
 export const MENU_DATAS = [
@@ -181,6 +153,10 @@ export const CATEGORIES = [
     title: "Coffee Condiments",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae blanditiis consectetur qui aliquam eos corrupti similique ex natus voluptas.",
   }
+]
+
+export const ABOUT_iMGS = [
+  product1, product2, product3
 ]
 
 export const PRODUCTS = [

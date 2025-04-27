@@ -25,7 +25,7 @@ const About = () => {
                     transition={{ duration: 1.2 }}
                 >
                     <h1 className='heading'>Elvating Coffee with 35+<br/>Years Expertise</h1>
-                    <p>Java Time Caffee leads with over 35 years of expertise in coffee, setting the standard for excellence. Our advanced POS systems and toptier machinary ensure an expectional coffee experience. With focus on sharing knowlage and dedication to quality, we're more than just a coffee shop - we're innovators in ihe industry.</p>
+                    <p>Java Time Caffee leads with over 35 years of expertise in coffee, setting the standard for excellence. Our advanced POS systems and toptier machinary ensure an expectional coffee experience. With focus on sharing knowlage and dedication to quality, we&apos;re more than just a coffee shop - we&apos;re innovators in ihe industry.</p>
                     <p className='underline-btn'>Explore More</p>
                 </motion.div>
                 <motion.div 
